@@ -1,0 +1,4 @@
+<Rule>
+    'GiaThiet':=['ChoiGame(2D)'],
+    'KetLuan':=['CPU(manh)','Ram(2)']
+</Rule>
