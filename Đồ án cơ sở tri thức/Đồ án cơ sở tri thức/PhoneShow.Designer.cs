@@ -61,7 +61,7 @@
             this.NameButton1.OnHovercolor = System.Drawing.Color.Transparent;
             this.NameButton1.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.NameButton1.selected = false;
-            this.NameButton1.Size = new System.Drawing.Size(199, 40);
+            this.NameButton1.Size = new System.Drawing.Size(165, 40);
             this.NameButton1.TabIndex = 3;
             this.NameButton1.Text = "NameButton1";
             this.NameButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -95,7 +95,7 @@
             this.PriceButton1.OnHovercolor = System.Drawing.Color.Transparent;
             this.PriceButton1.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.PriceButton1.selected = false;
-            this.PriceButton1.Size = new System.Drawing.Size(199, 24);
+            this.PriceButton1.Size = new System.Drawing.Size(165, 24);
             this.PriceButton1.TabIndex = 4;
             this.PriceButton1.Text = "bunifuFlatButton1";
             this.PriceButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -109,13 +109,12 @@
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Location = new System.Drawing.Point(0, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(199, 160);
+            this.pictureBox1.Size = new System.Drawing.Size(164, 160);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
-            // 
             // 
             // PhoneShow
             // 
@@ -125,7 +124,7 @@
             this.Controls.Add(this.NameButton1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "PhoneShow";
-            this.Size = new System.Drawing.Size(199, 258);
+            this.Size = new System.Drawing.Size(165, 258);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

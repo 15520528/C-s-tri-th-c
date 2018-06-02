@@ -13,5 +13,6 @@ namespace Đồ_án_cơ_sở_tri_thức.KnowledgeBase
 
         [JsonProperty("KL")]
         public string[] KetLuan { get; set; }
+
     }
 }

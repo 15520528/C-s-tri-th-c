@@ -93,6 +93,7 @@
             this.panel11 = new System.Windows.Forms.Panel();
             this.label53 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
+            this.PriceLabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -108,11 +109,13 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.Controls.Add(this.label3);
             this.panel1.Location = new System.Drawing.Point(309, 61);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(578, 37);
+            this.panel1.Size = new System.Drawing.Size(527, 37);
             this.panel1.TabIndex = 8;
             // 
             // label3
@@ -148,11 +151,13 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel2.Controls.Add(this.label4);
             this.panel2.Location = new System.Drawing.Point(309, 239);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(578, 37);
+            this.panel2.Size = new System.Drawing.Size(527, 37);
             this.panel2.TabIndex = 9;
             // 
             // label4
@@ -218,11 +223,13 @@
             // 
             // panel3
             // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel3.Controls.Add(this.label9);
             this.panel3.Location = new System.Drawing.Point(309, 457);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(578, 37);
+            this.panel3.Size = new System.Drawing.Size(527, 37);
             this.panel3.TabIndex = 14;
             // 
             // label9
@@ -308,11 +315,13 @@
             // 
             // panel4
             // 
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel4.Controls.Add(this.label17);
             this.panel4.Location = new System.Drawing.Point(309, 636);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(578, 37);
+            this.panel4.Size = new System.Drawing.Size(527, 37);
             this.panel4.TabIndex = 22;
             // 
             // label17
@@ -416,11 +425,13 @@
             // 
             // panel6
             // 
+            this.panel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel6.Controls.Add(this.label27);
             this.panel6.Location = new System.Drawing.Point(312, 826);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(575, 37);
+            this.panel6.Size = new System.Drawing.Size(524, 37);
             this.panel6.TabIndex = 28;
             // 
             // label27
@@ -476,11 +487,13 @@
             // 
             // panel7
             // 
+            this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel7.Controls.Add(this.label32);
             this.panel7.Location = new System.Drawing.Point(312, 1025);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(575, 37);
+            this.panel7.Size = new System.Drawing.Size(524, 37);
             this.panel7.TabIndex = 33;
             // 
             // label32
@@ -576,11 +589,13 @@
             // 
             // panel8
             // 
+            this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel8.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel8.Controls.Add(this.label41);
             this.panel8.Location = new System.Drawing.Point(312, 1354);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(575, 37);
+            this.panel8.Size = new System.Drawing.Size(524, 37);
             this.panel8.TabIndex = 42;
             // 
             // label41
@@ -626,11 +641,13 @@
             // 
             // panel9
             // 
+            this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel9.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel9.Controls.Add(this.label45);
             this.panel9.Location = new System.Drawing.Point(309, 1554);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(578, 37);
+            this.panel9.Size = new System.Drawing.Size(527, 37);
             this.panel9.TabIndex = 47;
             // 
             // label45
@@ -676,11 +693,13 @@
             // 
             // panel10
             // 
+            this.panel10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel10.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel10.Controls.Add(this.label49);
             this.panel10.Location = new System.Drawing.Point(306, 1718);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(581, 37);
+            this.panel10.Size = new System.Drawing.Size(530, 37);
             this.panel10.TabIndex = 51;
             // 
             // label49
@@ -754,13 +773,26 @@
             this.label54.TabIndex = 59;
             this.label54.Text = "Thời điểm ra mắt:";
             // 
+            // PriceLabel
+            // 
+            this.PriceLabel.AutoSize = true;
+            this.PriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PriceLabel.ForeColor = System.Drawing.Color.Red;
+            this.PriceLabel.Location = new System.Drawing.Point(12, 324);
+            this.PriceLabel.Name = "PriceLabel";
+            this.PriceLabel.Size = new System.Drawing.Size(100, 24);
+            this.PriceLabel.TabIndex = 60;
+            this.PriceLabel.Text = "23.490.000";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(916, 449);
+            this.Controls.Add(this.PriceLabel);
             this.Controls.Add(this.label54);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.label50);
@@ -911,7 +943,6 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.Label label54;
-
-        
+        private System.Windows.Forms.Label PriceLabel;
     }
 }

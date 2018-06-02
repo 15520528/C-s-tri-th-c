@@ -188,6 +188,7 @@
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.CornflowerBlue;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
             // 
             // bunifuFlatButton1
             // 
@@ -222,6 +223,7 @@
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.CornflowerBlue;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
             // 
             // NameButton1
             // 
@@ -256,11 +258,12 @@
             this.NameButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.NameButton1.Textcolor = System.Drawing.Color.CornflowerBlue;
             this.NameButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameButton1.Click += new System.EventHandler(this.NameButton1_Click);
             // 
             // phone1
             // 
             this.phone1.AutoScroll = true;
-            this.phone1.BackColor = System.Drawing.Color.MistyRose;
+            this.phone1.BackColor = System.Drawing.Color.White;
             this.phone1.Location = new System.Drawing.Point(140, 49);
             this.phone1.Name = "phone1";
             this.phone1.Size = new System.Drawing.Size(671, 441);
@@ -268,6 +271,9 @@
             // 
             // tuVan1
             // 
+            this.tuVan1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tuVan1.AutoScroll = true;
             this.tuVan1.BackColor = System.Drawing.Color.White;
             this.tuVan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

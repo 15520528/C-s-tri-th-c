@@ -17,7 +17,7 @@ namespace Đồ_án_cơ_sở_tri_thức
     {
         List<String> GiaThiet;//lưu giữ tập sự kiện ban đầu
         List<String> Known; //Tập sự kiện đã biết
-        Dictionary<List<String>, List<String> > RuleSet = new Dictionary<List<String>, List<String>>();//Lưu giữ tập luật, ứng với giả thiết và kết luận
+        Dictionary<List<String>, List<String> > RuleSet ;//Lưu giữ tập luật, ứng với giả thiết và kết luận
         public Form1()
         {
             InitializeComponent();
@@ -99,6 +99,7 @@ namespace Đồ_án_cơ_sở_tri_thức
         {
             GiaThiet = new List<String>();
             RuleSet = new Dictionary<List<string>, List<string>>();
+
         }
     }
     public class Rules

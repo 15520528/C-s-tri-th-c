@@ -12,13 +12,37 @@ namespace Đồ_án_cơ_sở_tri_thức
 {
     public partial class Form2 : Form
     {
+        String PhonePicturePath;
         public Form2()
         {
             InitializeComponent();
         }
+
+        //đổi màu label khi hover lên
+        private void KeyHover(object sender, System.EventArgs e)
+        {
+            (sender as Label).ForeColor = Color.OrangeRed;
+        }
+
+        //đổi màu label sau khi leave
+        private void KeyLeave(object sender, System.EventArgs e)
+        {
+            (sender as Label).ForeColor = Color.FromArgb(0, 192, 192);
+        }
+
         public Form2(SmartPhone Phone)
         {
             InitializeComponent();
+            //show giá điện thoại lên giao diện
+            PriceLabel.Text = Phone.Gia + " VNĐ";
+
+            //show tên điện thoại lên giao diện
+            phoneNameLB.Text = Phone.TenDienThoai;
+
+            //Set lại ảnh đại diện cho điện thoại trên giao diện
+            PhonePicturePath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\hinh\"+Phone.TenDienThoai+".PNG";
+            pictureBox1.Image = Image.FromFile(PhonePicturePath);
+
             //Màn Hình
             {
                 //công nghệ màn hình
@@ -32,6 +56,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     CongNgheManHinh.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     CongNgheManHinh.Cursor = Cursors.Hand;
                     CongNgheManHinh.Show();
+                    CongNgheManHinh.MouseHover += new EventHandler(KeyHover);
+                    CongNgheManHinh.MouseLeave += new EventHandler(KeyLeave);
                 }
 
                 //độ phân giải
@@ -44,6 +70,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     DoPG.ForeColor = Color.FromArgb(0, 192, 192);
                     DoPG.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     DoPG.Cursor = Cursors.Hand;
+                    DoPG.MouseHover += new EventHandler(KeyHover);
+                    DoPG.MouseLeave += new EventHandler(KeyLeave);
                     DoPG.Show();
                 }
 
@@ -69,6 +97,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     MatKCU.ForeColor = Color.FromArgb(0, 192, 192);
                     MatKCU.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     MatKCU.Cursor = Cursors.Hand;
+                    MatKCU.MouseHover += new EventHandler(KeyHover);
+                    MatKCU.MouseLeave += new EventHandler(KeyLeave);
                     MatKCU.Show();
                 }
             }
@@ -103,6 +133,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         }
                         DoPGCameraSau[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         DoPGCameraSau[i].Cursor = Cursors.Hand;
+                        DoPGCameraSau[i].MouseHover += new EventHandler(KeyHover);
+                        DoPGCameraSau[i].MouseLeave += new EventHandler(KeyLeave);
                         DoPGCameraSau[i].Show();
                         i++;
                     }
@@ -137,6 +169,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         QuayPhim[i].ForeColor = Color.FromArgb(0, 192, 192);
                         QuayPhim[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         QuayPhim[i].Cursor = Cursors.Hand;
+                        QuayPhim[i].MouseHover += new EventHandler(KeyHover);
+                        QuayPhim[i].MouseLeave += new EventHandler(KeyLeave);
                         QuayPhim[i].Show();
                         i++;
                     }
@@ -152,6 +186,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     Flash.ForeColor = Color.FromArgb(0, 192, 192);
                     Flash.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     Flash.Cursor = Cursors.Hand;
+                    Flash.MouseHover += new EventHandler(KeyHover);
+                    Flash.MouseLeave += new EventHandler(KeyLeave);
                     Flash.Show();
                 }
 
@@ -184,6 +220,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         ChupAnhNC[i].ForeColor = Color.FromArgb(0, 192, 192);
                         ChupAnhNC[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         ChupAnhNC[i].Cursor = Cursors.Hand;
+                        ChupAnhNC[i].MouseHover += new EventHandler(KeyHover);
+                        ChupAnhNC[i].MouseLeave += new EventHandler(KeyLeave);
                         ChupAnhNC[i].Show();
                         i++;
                     }
@@ -214,6 +252,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     VideoCall.ForeColor = Color.FromArgb(0, 192, 192);
                     VideoCall.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     VideoCall.Cursor = Cursors.Hand;
+                    VideoCall.MouseHover += new EventHandler(KeyHover);
+                    VideoCall.MouseLeave += new EventHandler(KeyLeave);
                     VideoCall.Show();
                 }
 
@@ -247,6 +287,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         TinhNangCameraTruoc[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         TinhNangCameraTruoc[i].Cursor = Cursors.Hand;
                         TinhNangCameraTruoc[i].Show();
+                        TinhNangCameraTruoc[i].MouseHover += new EventHandler(KeyHover);
+                        TinhNangCameraTruoc[i].MouseLeave += new EventHandler(KeyLeave);
                         i++;
                     }
                 }
@@ -264,6 +306,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     HeDieuHanh.ForeColor = Color.FromArgb(0, 192, 192);
                     HeDieuHanh.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     HeDieuHanh.Cursor = Cursors.Hand;
+                    HeDieuHanh.MouseHover += new EventHandler(KeyHover);
+                    HeDieuHanh.MouseLeave += new EventHandler(KeyLeave);
                     HeDieuHanh.Show();
                 }
 
@@ -277,6 +321,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     ChipSet.ForeColor = Color.FromArgb(0, 192, 192);
                     ChipSet.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     ChipSet.Cursor = Cursors.Hand;
+                    ChipSet.MouseHover += new EventHandler(KeyHover);
+                    ChipSet.MouseLeave += new EventHandler(KeyLeave);
                     ChipSet.Show();
                 }
 
@@ -302,6 +348,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     ChipDoHoa.ForeColor = Color.FromArgb(0, 192, 192);
                     ChipDoHoa.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     ChipDoHoa.Cursor = Cursors.Hand;
+                    ChipDoHoa.MouseHover += new EventHandler(KeyHover);
+                    ChipDoHoa.MouseLeave += new EventHandler(KeyLeave);
                     ChipDoHoa.Show();
                 }
             }
@@ -354,6 +402,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     TheNhoNgoai.ForeColor = Color.FromArgb(0, 192, 192);
                     TheNhoNgoai.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     TheNhoNgoai.Cursor = Cursors.Hand;
+                    TheNhoNgoai.MouseHover += new EventHandler(KeyHover);
+                    TheNhoNgoai.MouseLeave += new EventHandler(KeyLeave);
                     TheNhoNgoai.Show();
                 }
             }
@@ -389,6 +439,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         MangDiDong[i].ForeColor = Color.FromArgb(0, 192, 192);
                         MangDiDong[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         MangDiDong[i].Cursor = Cursors.Hand;
+                        MangDiDong[i].MouseHover += new EventHandler(KeyHover);
+                        MangDiDong[i].MouseLeave += new EventHandler(KeyLeave);
                         MangDiDong[i].Show();
                         i++;
                     }
@@ -404,6 +456,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     Sim.ForeColor = Color.FromArgb(0, 192, 192);
                     Sim.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     Sim.Cursor = Cursors.Hand;
+                    Sim.MouseHover += new EventHandler(KeyHover);
+                    Sim.MouseLeave += new EventHandler(KeyLeave);
                     Sim.Show();
                 }
 
@@ -436,6 +490,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         Wifi[i].ForeColor = Color.FromArgb(0, 192, 192);
                         Wifi[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         Wifi[i].Cursor = Cursors.Hand;
+                        Wifi[i].MouseHover += new EventHandler(KeyHover);
+                        Wifi[i].MouseLeave += new EventHandler(KeyLeave);
                         Wifi[i].Show();
                         i++;
                     }
@@ -470,6 +526,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         GPS[i].ForeColor = Color.FromArgb(0, 192, 192);
                         GPS[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         GPS[i].Cursor = Cursors.Hand;
+                        GPS[i].MouseHover += new EventHandler(KeyHover);
+                        GPS[i].MouseLeave += new EventHandler(KeyLeave);
                         GPS[i].Show();
                         i++;
                     }
@@ -504,6 +562,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         Bluetooth[i].ForeColor = Color.FromArgb(0, 192, 192);
                         Bluetooth[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         Bluetooth[i].Cursor = Cursors.Hand;
+                        Bluetooth[i].MouseHover += new EventHandler(KeyHover);
+                        Bluetooth[i].MouseLeave += new EventHandler(KeyLeave);
                         Bluetooth[i].Show();
                         i++;
                     }
@@ -519,6 +579,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     CongKetNoi_Sac.ForeColor = Color.FromArgb(0, 192, 192);
                     CongKetNoi_Sac.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     CongKetNoi_Sac.Cursor = Cursors.Hand;
+                    CongKetNoi_Sac.MouseHover += new EventHandler(KeyHover);
+                    CongKetNoi_Sac.MouseLeave += new EventHandler(KeyLeave);
                     CongKetNoi_Sac.Show();
                 }
 
@@ -563,6 +625,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         KetNoiKhac[i].ForeColor = Color.FromArgb(0, 192, 192);
                         KetNoiKhac[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         KetNoiKhac[i].Cursor = Cursors.Hand;
+                        KetNoiKhac[i].MouseHover += new EventHandler(KeyHover);
+                        KetNoiKhac[i].MouseLeave += new EventHandler(KeyLeave);
                         KetNoiKhac[i].Show();
                         i++;
                     }
@@ -600,6 +664,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         ThietKe[i].ForeColor = Color.FromArgb(0, 192, 192);
                         ThietKe[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         ThietKe[i].Cursor = Cursors.Hand;
+                        ThietKe[i].MouseHover += new EventHandler(KeyHover);
+                        ThietKe[i].MouseLeave += new EventHandler(KeyLeave);
                         ThietKe[i].Show();
                         i++;
                     }
@@ -666,6 +732,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                     LoaiPin.ForeColor = Color.FromArgb(0, 192, 192);
                     LoaiPin.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                     LoaiPin.Cursor = Cursors.Hand;
+                    LoaiPin.MouseHover += new EventHandler(KeyHover);
+                    LoaiPin.MouseLeave += new EventHandler(KeyLeave);
                     LoaiPin.Show();
                 }
 
@@ -698,6 +766,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         CongNghePin[i].ForeColor = Color.FromArgb(0, 192, 192);
                         CongNghePin[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         CongNghePin[i].Cursor = Cursors.Hand;
+                        CongNghePin[i].MouseHover += new EventHandler(KeyHover);
+                        CongNghePin[i].MouseLeave += new EventHandler(KeyLeave);
                         CongNghePin[i].Show();
                         i++;
                     }
@@ -735,6 +805,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         BaoMatNangCao[i].ForeColor = Color.FromArgb(0, 192, 192);
                         BaoMatNangCao[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         BaoMatNangCao[i].Cursor = Cursors.Hand;
+                        BaoMatNangCao[i].MouseHover += new EventHandler(KeyHover);
+                        BaoMatNangCao[i].MouseLeave += new EventHandler(KeyLeave);
                         BaoMatNangCao[i].Show();
                         i++;
                     }
@@ -769,6 +841,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         TinhNangDacBiet[i].ForeColor = Color.FromArgb(0, 192, 192);
                         TinhNangDacBiet[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         TinhNangDacBiet[i].Cursor = Cursors.Hand;
+                        TinhNangDacBiet[i].MouseHover += new EventHandler(KeyHover);
+                        TinhNangDacBiet[i].MouseLeave += new EventHandler(KeyLeave);
                         TinhNangDacBiet[i].Show();
                         i++;
                     }
@@ -803,6 +877,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         GhiAm[i].ForeColor = Color.FromArgb(0, 192, 192);
                         GhiAm[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         GhiAm[i].Cursor = Cursors.Hand;
+                        GhiAm[i].MouseHover += new EventHandler(KeyHover);
+                        GhiAm[i].MouseLeave += new EventHandler(KeyLeave);
                         GhiAm[i].Show();
                         i++;
                     }
@@ -849,6 +925,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         XemPhim[i].ForeColor = Color.FromArgb(0, 192, 192);
                         XemPhim[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         XemPhim[i].Cursor = Cursors.Hand;
+                        XemPhim[i].MouseHover += new EventHandler(KeyHover);
+                        XemPhim[i].MouseLeave += new EventHandler(KeyLeave);
                         XemPhim[i].Show();
                         i++;
                     }
@@ -883,6 +961,8 @@ namespace Đồ_án_cơ_sở_tri_thức
                         NgheNhac[i].ForeColor = Color.FromArgb(0, 192, 192);
                         NgheNhac[i].Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
                         NgheNhac[i].Cursor = Cursors.Hand;
+                        NgheNhac[i].MouseHover += new EventHandler(KeyHover);
+                        NgheNhac[i].MouseLeave += new EventHandler(KeyLeave);
                         NgheNhac[i].Show();
                         i++;
                     }
