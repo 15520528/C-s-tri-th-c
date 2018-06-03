@@ -33,6 +33,7 @@ namespace Đồ_án_cơ_sở_tri_thức
             }
             forwardInference();//suy diễn tiến
         }
+
         public void forwardInference()
         {
             bool found = true;

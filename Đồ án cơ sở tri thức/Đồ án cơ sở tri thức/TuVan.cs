@@ -8,15 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using Đồ_án_cơ_sở_tri_thức.KnowledgeBase;
 
 namespace Đồ_án_cơ_sở_tri_thức
 {
     public partial class TuVan : UserControl
     {
         List<String> GiaThiet;//lưu giữ tập sự kiện ban đầu mà người dùng nhập vào
-        List<String> Known; //Tập sự kiện đã biết
+        List<String> Known; //Tập sự kiện đã biết, lưu giữ các sự kiện được sinh ra trong quá trình suy diễn tiến 
         Dictionary<List<String>, List<String>> RuleSet;//Lưu giữ tập luật, ứng với giả thiết và kết luận
         Dictionary<List<String>, List<String>> PhoneRuleSet;//Lưu giữ tập luật, ứng với giả thiết và kết luận
+        HashSet<String> PhoneList;//danh sách tên các điện thoại từ các sự kiện ban đầu
+        // Delegate declaration (Khai báo hàm sự kiện gửi danh sách điện thoại được click tới form My App)
+        public delegate void ClickTo(HashSet<String> PhoneList);
+        // Event declaration
+        public event ClickTo PassParameters;
         String CurrenFolderPath;
         String TuoiNguoiDungGT;
         String ThuNhapNguoiDungGT;
@@ -110,10 +116,63 @@ namespace Đồ_án_cơ_sở_tri_thức
                     PhoneRuleSet.Add(GT, KL);
                 }
             }
+            //foreach (KeyValuePair<List<String>, List<String>> rule in PhoneRuleSet)
+            //{
+            //    Console.WriteLine("[" + string.Join("AND", rule.Key.ToArray()) + "]" + " THEN " + string.Join("AND", rule.Value.ToArray()) + "\n\n");
+            //}
+        }
+
+        //Hàm suy diễn tiến từ sự kiện ban đầu
+        public void forwardInference()
+        {
+            {
+                bool found = true;
+                List<int> AddedRules = new List<int>();
+                while (found)
+                {
+                    found = false;
+                    int i = 1;
+                    foreach (KeyValuePair<List<String>, List<String>> rule in RuleSet)
+                    {
+                        if (rule.Key.All(elem => Known.Contains(elem)) && !AddedRules.Contains(i))
+                        {
+                            Console.WriteLine(string.Join(",", rule.Key.ToArray()));
+                            Known.AddRange(rule.Value);
+                            found = true;
+                            AddedRules.Add(i);//đánh dấu đã xét qua luật
+                        }
+                        i++;
+                    }
+                }
+            }
+            Known.RemoveAll(EndsWithSpace);
+            //Gọi hàm suy ra danh sách điện thoại từ tập sự kiện thu được
+            //MessageBox.Show(string.Join("\n", Known.ToArray()));
+            PhoneInference();      
+        }
+
+        //Hàm suy ra danh sách điện thoại từ các sự kiện cuối cùng được suy ra
+        public void PhoneInference()
+        {
+            List<String> X = new List<string>();
+            PhoneList = new HashSet<string>();
             foreach (KeyValuePair<List<String>, List<String>> rule in PhoneRuleSet)
             {
-                Console.WriteLine("[" + string.Join("AND", rule.Key.ToArray()) + "]" + " THEN " + string.Join("AND", rule.Value.ToArray()) + "\n\n");
+                if (rule.Key.All(elem => Known.Contains(elem)))
+                {
+                    Console.WriteLine(string.Join(",", rule.Key.ToArray()));
+                    foreach (string phoneName in rule.Value) {
+                        PhoneList.Add(phoneName);
+                    }
+                    X.AddRange(rule.Key);
+                }
             }
+            //MessageBox.Show(string.Join("\n", X.ToArray()));
+        }
+
+        private static bool EndsWithSpace(String s)
+        {
+            return s == "";
         }
 
         //Tiến hành tư vấn cho User
@@ -139,14 +198,20 @@ namespace Đồ_án_cơ_sở_tri_thức
             GiaThiet.Add(Cham2LanSang);
             GiaThiet.Add(SacPin);
             GiaThiet.Add(Touch);
-            MessageBox.Show(string.Join(",", GiaThiet));
+            Known = GiaThiet;
+            forwardInference();
+            if (PassParameters != null)
+            {
+                PassParameters(PhoneList);
+            }
+            //MessageBox.Show(string.Join(",", GiaThiet));
         }
 
         private void bunifuDropdown1_onItemSelected(object sender, EventArgs e)
         {
             if (int.Parse(bunifuDropdown1.selectedValue) >= 6 && int.Parse(bunifuDropdown1.selectedValue) <= 12)
             {
-                TuoiNguoiDungGT = "NguoiSuDung.Tuoi(6 - 12)";
+                TuoiNguoiDungGT = "NguoiSuDung.Tuoi(6-12)";
             }
             else if (int.Parse(bunifuDropdown1.selectedValue) >= 13 && int.Parse(bunifuDropdown1.selectedValue) <= 19)
             {
@@ -162,7 +227,7 @@ namespace Đồ_án_cơ_sở_tri_thức
             }
             else if (int.Parse(bunifuDropdown1.selectedValue) > 60)
             {
-                TuoiNguoiDungGT = "NguoiSuDung.Tuoi(> 60)";
+                TuoiNguoiDungGT = "NguoiSuDung.Tuoi(>60)";
             }
             else
             {

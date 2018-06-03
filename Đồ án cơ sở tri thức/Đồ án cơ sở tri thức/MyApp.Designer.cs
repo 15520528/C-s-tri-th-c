@@ -39,6 +39,7 @@
             this.NameButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.phone1 = new Đồ_án_cơ_sở_tri_thức.Phone();
             this.tuVan1 = new Đồ_án_cơ_sở_tri_thức.TuVan();
+            this.phone2 = new Đồ_án_cơ_sở_tri_thức.Phone();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
@@ -264,9 +265,9 @@
             // 
             this.phone1.AutoScroll = true;
             this.phone1.BackColor = System.Drawing.Color.White;
-            this.phone1.Location = new System.Drawing.Point(140, 49);
+            this.phone1.Location = new System.Drawing.Point(140, 50);
             this.phone1.Name = "phone1";
-            this.phone1.Size = new System.Drawing.Size(671, 441);
+            this.phone1.Size = new System.Drawing.Size(671, 440);
             this.phone1.TabIndex = 2;
             // 
             // tuVan1
@@ -280,14 +281,24 @@
             this.tuVan1.Location = new System.Drawing.Point(140, 48);
             this.tuVan1.Margin = new System.Windows.Forms.Padding(4);
             this.tuVan1.Name = "tuVan1";
-            this.tuVan1.Size = new System.Drawing.Size(671, 441);
+            this.tuVan1.Size = new System.Drawing.Size(671, 442);
             this.tuVan1.TabIndex = 1;
+            // 
+            // phone2
+            // 
+            this.phone2.AutoScroll = true;
+            this.phone2.BackColor = System.Drawing.Color.Gold;
+            this.phone2.Location = new System.Drawing.Point(140, 51);
+            this.phone2.Name = "phone2";
+            this.phone2.Size = new System.Drawing.Size(671, 439);
+            this.phone2.TabIndex = 4;
             // 
             // MyApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(811, 535);
+            this.Controls.Add(this.phone2);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.phone1);
             this.Controls.Add(this.tuVan1);
@@ -315,5 +326,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton NameButton1;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
+        private Phone phone2;
     }
 }

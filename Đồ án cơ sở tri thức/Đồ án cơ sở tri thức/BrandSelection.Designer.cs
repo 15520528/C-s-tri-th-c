@@ -72,7 +72,7 @@
             this.bunifuCheckbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
             this.bunifuCheckbox1.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
             this.bunifuCheckbox1.Checked = false;
-            this.bunifuCheckbox1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(205)))), ((int)(((byte)(117)))));
+            this.bunifuCheckbox1.CheckedOnColor = System.Drawing.Color.Turquoise;
             this.bunifuCheckbox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuCheckbox1.ForeColor = System.Drawing.Color.White;
             this.bunifuCheckbox1.Location = new System.Drawing.Point(13, 50);
@@ -515,6 +515,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Snow;
             this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.bunifuFlatButton1);
             this.Controls.Add(this.label16);
