@@ -1,0 +1,7 @@
+c:\users\wind\documents\visual studio 2013\Projects\ReadWrite\ReadWrite\bin\Debug\ReadWrite.exe.config
+c:\users\wind\documents\visual studio 2013\Projects\ReadWrite\ReadWrite\bin\Debug\ReadWrite.exe
+c:\users\wind\documents\visual studio 2013\Projects\ReadWrite\ReadWrite\bin\Debug\ReadWrite.pdb
+c:\users\wind\documents\visual studio 2013\Projects\ReadWrite\ReadWrite\obj\Debug\ReadWrite.csprojResolveAssemblyReference.cache
+c:\users\wind\documents\visual studio 2013\Projects\ReadWrite\ReadWrite\obj\Debug\ReadWrite.csproj.ResolveComReference.cache
+c:\users\wind\documents\visual studio 2013\Projects\ReadWrite\ReadWrite\obj\Debug\ReadWrite.exe
+c:\users\wind\documents\visual studio 2013\Projects\ReadWrite\ReadWrite\obj\Debug\ReadWrite.pdb

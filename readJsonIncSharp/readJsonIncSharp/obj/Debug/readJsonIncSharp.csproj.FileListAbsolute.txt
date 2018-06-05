@@ -1,0 +1,9 @@
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\readJsonIncSharp\readJsonIncSharp\bin\Debug\readJsonIncSharp.exe.config
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\readJsonIncSharp\readJsonIncSharp\bin\Debug\readJsonIncSharp.exe
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\readJsonIncSharp\readJsonIncSharp\bin\Debug\readJsonIncSharp.pdb
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\readJsonIncSharp\readJsonIncSharp\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\readJsonIncSharp\readJsonIncSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\readJsonIncSharp\readJsonIncSharp\obj\Debug\readJsonIncSharp.csprojResolveAssemblyReference.cache
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\readJsonIncSharp\readJsonIncSharp\obj\Debug\readJsonIncSharp.csproj.CoreCompileInputs.cache
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\readJsonIncSharp\readJsonIncSharp\obj\Debug\readJsonIncSharp.exe
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\readJsonIncSharp\readJsonIncSharp\obj\Debug\readJsonIncSharp.pdb

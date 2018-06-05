@@ -94,6 +94,12 @@
     <Compile Include="Phone.Designer.cs">
       <DependentUpon>Phone.cs</DependentUpon>
     </Compile>
+    <Compile Include="StorePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StorePanel.Designer.cs">
+      <DependentUpon>StorePanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="TuVan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </Compile>
     <EmbeddedResource Include="Phone.resx">
       <DependentUpon>Phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StorePanel.resx">
+      <DependentUpon>StorePanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TuVan.resx">
       <DependentUpon>TuVan.cs</DependentUpon>
@@ -164,6 +173,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\icons\icons8-sort-down-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\store.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\icons8-playstore-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\icons8-shop-26.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

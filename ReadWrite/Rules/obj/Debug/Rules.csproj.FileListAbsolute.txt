@@ -1,0 +1,7 @@
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\Rules\bin\Debug\Rules.exe.config
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\Rules\obj\Debug\Rules.csprojResolveAssemblyReference.cache
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\Rules\bin\Debug\Rules.exe
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\Rules\bin\Debug\Rules.pdb
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\Rules\obj\Debug\Rules.csproj.ResolveComReference.cache
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\Rules\obj\Debug\Rules.exe
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\Rules\obj\Debug\Rules.pdb

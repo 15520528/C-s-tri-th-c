@@ -165,11 +165,13 @@ namespace Đồ_án_cơ_sở_tri_thức
 
         private void button1_Click(object sender, EventArgs e)
         {
+            storePanel1.Hide();
             tuVan1.BringToFront();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            storePanel1.Hide();
             phone1.BringToFront();
         }
 
@@ -191,7 +193,7 @@ namespace Đồ_án_cơ_sở_tri_thức
             String[] Str;
             String jsonString = "{";
             CurrenFolderPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\";
-            using (XmlReader reader = XmlReader.Create(CurrenFolderPath + "Cấu trúc hệ tư vấn mua điện thoại.owl"))
+            using (XmlReader reader = XmlReader.Create(CurrenFolderPath + "Cấu trúc hệ tư vấn mua điện thoại - Copy.owl"))
             while (reader.Read())
             {
                 
@@ -584,6 +586,12 @@ namespace Đồ_án_cơ_sở_tri_thức
                 }
             }
             PhoneFilter(list);//tiền hành lọc
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            storePanel1.BringToFront();
+            storePanel1.Show();
         }
     }
 }

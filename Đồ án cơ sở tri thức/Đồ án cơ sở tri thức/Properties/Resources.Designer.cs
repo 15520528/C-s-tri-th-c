@@ -83,6 +83,26 @@ namespace Đồ_án_cơ_sở_tri_thức.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_playstore_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-playstore-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_shop_26 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-shop-26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_sort_down_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-sort-down-24", resourceCulture);
@@ -126,6 +146,16 @@ namespace Đồ_án_cơ_sở_tri_thức.Properties {
         internal static System.Drawing.Bitmap iphonex {
             get {
                 object obj = ResourceManager.GetObject("iphonex", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap store {
+            get {
+                object obj = ResourceManager.GetObject("store", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

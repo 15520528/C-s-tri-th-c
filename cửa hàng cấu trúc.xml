@@ -1,0 +1,1043 @@
+﻿--------128 Trần Quang Khải, P. Tân Định, Q.1, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#128_Trần_Quang_Khải,_P._Tân_Định,_Q.1,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_1"/>
+     <absolute:DiaChi rdf:datatype="#string">128 Trần Quang Khải, P. Tân Định, Q.1, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------136 Nguyễn Thái Học, P.Phạm Ngũ Lão, Q.1, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#136_Nguyễn_Thái_Học,_P.Phạm_Ngũ_Lão,_Q.1,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_1"/>
+     <absolute:DiaChi rdf:datatype="#string">136 Nguyễn Thái Học, P.Phạm Ngũ Lão, Q.1, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------8D Nguyễn Thị Minh Khai, P.Đa Kao, Q.01, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#8D_Nguyễn_Thị_Minh_Khai,_P.Đa_Kao,_Q.01,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_1"/>
+     <absolute:DiaChi rdf:datatype="#string">8D Nguyễn Thị Minh Khai, P.Đa Kao, Q.01, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------145 Nguyễn Thị Minh Khai, Phạm Ngũ Lão, Quận 1, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#145_Nguyễn_Thị_Minh_Khai,_Phạm_Ngũ_Lão,_Quận_1,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_1"/>
+     <absolute:DiaChi rdf:datatype="#string">145 Nguyễn Thị Minh Khai, Phạm Ngũ Lão, Quận 1, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------27 Quốc Hương, KP 4, P. Thảo Điền, Q. 2, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#27_Quốc_Hương,_KP_4,_P._Thảo_Điền,_Q._2,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_2"/>
+     <absolute:DiaChi rdf:datatype="#string">27 Quốc Hương, KP 4, P. Thảo Điền, Q. 2, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------190B Nguyễn Thị Định, P.An Phú, Quận 2, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#190B_Nguyễn_Thị_Định,_P.An_Phú,_Quận_2,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_2"/>
+     <absolute:DiaChi rdf:datatype="#string">190B Nguyễn Thị Định, P.An Phú, Quận 2, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------374 - 376 Nguyễn Duy Trinh, P. Bình Trưng Đông, Quận 2, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#374_-_376_Nguyễn_Duy_Trinh,_P._Bình_Trưng_Đông,_Quận_2,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_2"/>
+     <absolute:DiaChi rdf:datatype="#string">374 - 376 Nguyễn Duy Trinh, P. Bình Trưng Đông, Quận 2, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------543 Nguyễn Thị Định, Phường Cát Lái, Quận 2, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#543_Nguyễn_Thị_Định,_Phường_Cát_Lái,_Quận_2,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_2"/>
+     <absolute:DiaChi rdf:datatype="#string">543 Nguyễn Thị Định, Phường Cát Lái, Quận 2, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------198 Trần Não, Ấp Bình Khánh 2, P. Bình An, Quận 2, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#198_Trần_Não,_Ấp_Bình_Khánh_2,_P._Bình_An,_Quận_2,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_2"/>
+     <absolute:DiaChi rdf:datatype="#string">198 Trần Não, Ấp Bình Khánh 2, P. Bình An, Quận 2, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------182 A Nguyễn Thị Minh Khai, Q.3, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#182_A_Nguyễn_Thị_Minh_Khai,_Q.3,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_3"/>
+     <absolute:DiaChi rdf:datatype="#string">182 A Nguyễn Thị Minh Khai, Q.3, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------191 Điện Biên Phủ, Phường 06, Quận 3, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#191_Điện_Biên_Phủ,_Phường_06,_Quận_3,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_3"/>
+     <absolute:DiaChi rdf:datatype="#string">191 Điện Biên Phủ, Phường 06, Quận 3, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------300 Nguyễn Tất Thành, P.13, Q.4, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#300_Nguyễn_Tất_Thành,_P.13,_Q.4,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_4"/>
+     <absolute:DiaChi rdf:datatype="#string">300 Nguyễn Tất Thành, P.13, Q.4, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+-------- (Cạnh trường đại học Nguyễn Tất Thành)179 Tôn Đản, P. 15, Q. 4, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#_(Cạnh_trường_đại_học_Nguyễn_Tất_Thành)179_Tôn_Đản,_P._15,_Q._4,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_4"/>
+     <absolute:DiaChi rdf:datatype="#string"> (Cạnh trường đại học Nguyễn Tất Thành)179 Tôn Đản, P. 15, Q. 4, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------163-165 Khánh Hội, Q.4, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#163-165_Khánh_Hội,_Q.4,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_4"/>
+     <absolute:DiaChi rdf:datatype="#string">163-165 Khánh Hội, Q.4, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------174 - 176 Hải Thượng Lãn Ông, P.10, Q.05, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#174_-_176_Hải_Thượng_Lãn_Ông,_P.10,_Q.05,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_5"/>
+     <absolute:DiaChi rdf:datatype="#string">174 - 176 Hải Thượng Lãn Ông, P.10, Q.05, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------12 Nguyễn Trãi, Phường 03, Quận 05, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#12_Nguyễn_Trãi,_Phường_03,_Quận_05,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_5"/>
+     <absolute:DiaChi rdf:datatype="#string">12 Nguyễn Trãi, Phường 03, Quận 05, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------532-534 Trần Hưng Đạo, P.02, Q.05, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#532-534_Trần_Hưng_Đạo,_P.02,_Q.05,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_5"/>
+     <absolute:DiaChi rdf:datatype="#string">532-534 Trần Hưng Đạo, P.02, Q.05, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------708 Nguyễn Trãi, P. 11, Q. 05, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#708_Nguyễn_Trãi,_P._11,_Q._05,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_5"/>
+     <absolute:DiaChi rdf:datatype="#string">708 Nguyễn Trãi, P. 11, Q. 05, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------341-343-345 Nguyễn Chí Thanh, P.15, Quận 05, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#341-343-345_Nguyễn_Chí_Thanh,_P.15,_Quận_05,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_5"/>
+     <absolute:DiaChi rdf:datatype="#string">341-343-345 Nguyễn Chí Thanh, P.15, Quận 05, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------176 Nguyễn Tri Phương,P.9, Q.5, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#176_Nguyễn_Tri_Phương,P.9,_Q.5,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_5"/>
+     <absolute:DiaChi rdf:datatype="#string">176 Nguyễn Tri Phương,P.9, Q.5, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------558 Trần Hưng Đạo, P.2, Q.5, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#558_Trần_Hưng_Đạo,_P.2,_Q.5,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_5"/>
+     <absolute:DiaChi rdf:datatype="#string">558 Trần Hưng Đạo, P.2, Q.5, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------246 Trần Phú, P.09, Quận 5, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#246_Trần_Phú,_P.09,_Quận_5,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_5"/>
+     <absolute:DiaChi rdf:datatype="#string">246 Trần Phú, P.09, Quận 5, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------3 Kinh Dương Vương, Phường 12, Quận 6, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#3_Kinh_Dương_Vương,_Phường_12,_Quận_6,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_6"/>
+     <absolute:DiaChi rdf:datatype="#string">3 Kinh Dương Vương, Phường 12, Quận 6, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------98 Minh Phụng, P.6, Q.6, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#98_Minh_Phụng,_P.6,_Q.6,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_6"/>
+     <absolute:DiaChi rdf:datatype="#string">98 Minh Phụng, P.6, Q.6, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------704 Hậu Giang, phường 12, quận 6, TP. HCM (Ngay ngã tư Hậu Giang - Đường số 5)--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#704_Hậu_Giang,_phường_12,_quận_6,_TP._HCM_(Ngay_ngã_tư_Hậu_Giang_-_Đường_số_5)">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_6"/>
+     <absolute:DiaChi rdf:datatype="#string">704 Hậu Giang, phường 12, quận 6, TP. HCM (Ngay ngã tư Hậu Giang - Đường số 5)</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------346 Phạm Văn Chí, P.04, Quận 06, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#346_Phạm_Văn_Chí,_P.04,_Quận_06,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_6"/>
+     <absolute:DiaChi rdf:datatype="#string">346 Phạm Văn Chí, P.04, Quận 06, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số A15 Cư Xá Phú Lâm, đường Bà Hom, P. 13, Q. 06, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_A15_Cư_Xá_Phú_Lâm,_đường_Bà_Hom,_P._13,_Q._06,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_6"/>
+     <absolute:DiaChi rdf:datatype="#string">Số A15 Cư Xá Phú Lâm, đường Bà Hom, P. 13, Q. 06, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------56A Lê Quang Sung, P.2, Q.6, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#56A_Lê_Quang_Sung,_P.2,_Q.6,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_6"/>
+     <absolute:DiaChi rdf:datatype="#string">56A Lê Quang Sung, P.2, Q.6, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1077 Hậu Giang, P.11, Q.6, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1077_Hậu_Giang,_P.11,_Q.6,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_6"/>
+     <absolute:DiaChi rdf:datatype="#string">1077 Hậu Giang, P.11, Q.6, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------853 Huỳnh Tấn Phát, P. Phú Thuận, Q. 7, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#853_Huỳnh_Tấn_Phát,_P._Phú_Thuận,_Q._7,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_7"/>
+     <absolute:DiaChi rdf:datatype="#string">853 Huỳnh Tấn Phát, P. Phú Thuận, Q. 7, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------468 Nguyễn Thị Thập, Phường Tân Quy, Quận 7, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#468_Nguyễn_Thị_Thập,_Phường_Tân_Quy,_Quận_7,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_7"/>
+     <absolute:DiaChi rdf:datatype="#string">468 Nguyễn Thị Thập, Phường Tân Quy, Quận 7, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------509 Huỳnh Tấn Phát , Phường Tân Thuận Đông , Q7--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#509_Huỳnh_Tấn_Phát_,_Phường_Tân_Thuận_Đông_,_Q7">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_7"/>
+     <absolute:DiaChi rdf:datatype="#string">509 Huỳnh Tấn Phát , Phường Tân Thuận Đông , Q7</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------7 - 9 Tân Mỹ - Khu Phố 2, Phường Tân Phú, Q7, TP. HCM ( KẾ CHỢ TÂN MỸ )--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#7_-_9_Tân_Mỹ_-_Khu_Phố_2,_Phường_Tân_Phú,_Q7,_TP._HCM_(_KẾ_CHỢ_TÂN_MỸ_)">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_7"/>
+     <absolute:DiaChi rdf:datatype="#string">7 - 9 Tân Mỹ - Khu Phố 2, Phường Tân Phú, Q7, TP. HCM ( KẾ CHỢ TÂN MỸ )</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------311 Huỳnh Tấn Phát, P.Tân Thuận Đông, Q.7, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#311_Huỳnh_Tấn_Phát,_P.Tân_Thuận_Đông,_Q.7,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_7"/>
+     <absolute:DiaChi rdf:datatype="#string">311 Huỳnh Tấn Phát, P.Tân Thuận Đông, Q.7, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------328-328A Chánh Hưng( Phạm Hùng ) , Phường 5 , Quận 08, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#328-328A_Chánh_Hưng(_Phạm_Hùng_)_,_Phường_5_,_Quận_08,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_8"/>
+     <absolute:DiaChi rdf:datatype="#string">328-328A Chánh Hưng( Phạm Hùng ) , Phường 5 , Quận 08, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------319-321 Liên Tỉnh 5, P.5, Q.8, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#319-321_Liên_Tỉnh_5,_P.5,_Q.8,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_8"/>
+     <absolute:DiaChi rdf:datatype="#string">319-321 Liên Tỉnh 5, P.5, Q.8, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------651 Phạm Thế Hiển, P.04, Q.08 , TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#651_Phạm_Thế_Hiển,_P.04,_Q.08_,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_8"/>
+     <absolute:DiaChi rdf:datatype="#string">651 Phạm Thế Hiển, P.04, Q.08 , TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------288/1-288/3 Dương Bá Trạc, P.02, Q.08, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#288/1-288/3_Dương_Bá_Trạc,_P.02,_Q.08,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_8"/>
+     <absolute:DiaChi rdf:datatype="#string">288/1-288/3 Dương Bá Trạc, P.02, Q.08, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1680 Phạm Thế Hiển, P. 6, Q. 8, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1680_Phạm_Thế_Hiển,_P._6,_Q._8,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_8"/>
+     <absolute:DiaChi rdf:datatype="#string">1680 Phạm Thế Hiển, P. 6, Q. 8, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------733 Hưng Phú, P. 09 , Q. 08, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#733_Hưng_Phú,_P._09_,_Q._08,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_8"/>
+     <absolute:DiaChi rdf:datatype="#string">733 Hưng Phú, P. 09 , Q. 08, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+-------- (ngay ngã 3 Hưng Phú - Lưu Quý Kỳ)--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#_(ngay_ngã_3_Hưng_Phú_-_Lưu_Quý_Kỳ)">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_8"/>
+     <absolute:DiaChi rdf:datatype="#string"> (ngay ngã 3 Hưng Phú - Lưu Quý Kỳ)</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------246 Đỗ Xuân Hợp, P.Phước Long A, Q.9, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#246_Đỗ_Xuân_Hợp,_P.Phước_Long_A,_Q.9,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_9"/>
+     <absolute:DiaChi rdf:datatype="#string">246 Đỗ Xuân Hợp, P.Phước Long A, Q.9, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1316-1318 Nguyễn Duy Trinh, P. Long Trường, Q. 9, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1316-1318_Nguyễn_Duy_Trinh,_P._Long_Trường,_Q._9,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_9"/>
+     <absolute:DiaChi rdf:datatype="#string">1316-1318 Nguyễn Duy Trinh, P. Long Trường, Q. 9, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------159 –161 Lê Văn Việt, P.Hiệp Phú, Q.9, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#159_–161_Lê_Văn_Việt,_P.Hiệp_Phú,_Q.9,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_9"/>
+     <absolute:DiaChi rdf:datatype="#string">159 –161 Lê Văn Việt, P.Hiệp Phú, Q.9, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------358 Lê Văn Việt, P. Tăng Nhơn Phú B, Quận 9, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#358_Lê_Văn_Việt,_P._Tăng_Nhơn_Phú_B,_Quận_9,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_9"/>
+     <absolute:DiaChi rdf:datatype="#string">358 Lê Văn Việt, P. Tăng Nhơn Phú B, Quận 9, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 203 Lã Xuân Oai, KP.04, P. Tăng Nhơn Phú A, Q. 9, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_203_Lã_Xuân_Oai,_KP.04,_P._Tăng_Nhơn_Phú_A,_Q._9,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_9"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 203 Lã Xuân Oai, KP.04, P. Tăng Nhơn Phú A, Q. 9, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------304 Tô Hiến Thành, P.15, Q.10, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#304_Tô_Hiến_Thành,_P.15,_Q.10,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_10"/>
+     <absolute:DiaChi rdf:datatype="#string">304 Tô Hiến Thành, P.15, Q.10, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------228 - 228A - 230 Đường 3/2, Phường 12, Quận 10, Tp HCM678-680 Đường 3/2, Phường 14, Quận 10, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#228_-_228A_-_230_Đường_3/2,_Phường_12,_Quận_10,_Tp_HCM678-680_Đường_3/2,_Phường_14,_Quận_10,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_10"/>
+     <absolute:DiaChi rdf:datatype="#string">228 - 228A - 230 Đường 3/2, Phường 12, Quận 10, Tp HCM678-680 Đường 3/2, Phường 14, Quận 10, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------482 Hồng Bàng, P.16, Q.11, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#482_Hồng_Bàng,_P.16,_Q.11,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_11"/>
+     <absolute:DiaChi rdf:datatype="#string">482 Hồng Bàng, P.16, Q.11, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1273 Đường 3/2, Phường 6, Quận 11, Thành phố Hồ Chí Minh295-297-299 Lê Đại Hành, P. 13, Q. 11, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1273_Đường_3/2,_Phường_6,_Quận_11,_Thành_phố_Hồ_Chí_Minh295-297-299_Lê_Đại_Hành,_P._13,_Q._11,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_11"/>
+     <absolute:DiaChi rdf:datatype="#string">1273 Đường 3/2, Phường 6, Quận 11, Thành phố Hồ Chí Minh295-297-299 Lê Đại Hành, P. 13, Q. 11, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------281K Lãnh Binh Thăng, P.8, Q.11, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#281K_Lãnh_Binh_Thăng,_P.8,_Q.11,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_11"/>
+     <absolute:DiaChi rdf:datatype="#string">281K Lãnh Binh Thăng, P.8, Q.11, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------55A Nguyễn Ảnh Thủ, P. Trung Mỹ Tây, Q. 12, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#55A_Nguyễn_Ảnh_Thủ,_P._Trung_Mỹ_Tây,_Q._12,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_12"/>
+     <absolute:DiaChi rdf:datatype="#string">55A Nguyễn Ảnh Thủ, P. Trung Mỹ Tây, Q. 12, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+-------- (gần nhà sách Nguyễn Văn Cừ - Nguyễn Ảnh Thủ)260-262-264 Nguyễn Ảnh Thủ, Khu phố 2, P.Hiệp Thành, Q.12 , TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#_(gần_nhà_sách_Nguyễn_Văn_Cừ_-_Nguyễn_Ảnh_Thủ)260-262-264_Nguyễn_Ảnh_Thủ,_Khu_phố_2,_P.Hiệp_Thành,_Q.12_,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_12"/>
+     <absolute:DiaChi rdf:datatype="#string"> (gần nhà sách Nguyễn Văn Cừ - Nguyễn Ảnh Thủ)260-262-264 Nguyễn Ảnh Thủ, Khu phố 2, P.Hiệp Thành, Q.12 , TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------222 Trường Chinh, P.Tân Hưng Thuận, Q12, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#222_Trường_Chinh,_P.Tân_Hưng_Thuận,_Q12,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_12"/>
+     <absolute:DiaChi rdf:datatype="#string">222 Trường Chinh, P.Tân Hưng Thuận, Q12, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------2044 Quốc Lộ 1A, P.Tân Thới hiệp , Q.12, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#2044_Quốc_Lộ_1A,_P.Tân_Thới_hiệp_,_Q.12,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_12"/>
+     <absolute:DiaChi rdf:datatype="#string">2044 Quốc Lộ 1A, P.Tân Thới hiệp , Q.12, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------41 - 43 Trường Chinh, P. Tân Thới Nhất, Q12, Tp HCM, ( Góc Trường Chinh - Phan Văn Hớn )108 Lê Văn Khương, Q.12, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#41_-_43_Trường_Chinh,_P._Tân_Thới_Nhất,_Q12,_Tp_HCM,_(_Góc_Trường_Chinh_-_Phan_Văn_Hớn_)108_Lê_Văn_Khương,_Q.12,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_12"/>
+     <absolute:DiaChi rdf:datatype="#string">41 - 43 Trường Chinh, P. Tân Thới Nhất, Q12, Tp HCM, ( Góc Trường Chinh - Phan Văn Hớn )108 Lê Văn Khương, Q.12, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------365 Phan Văn Hớn, P.Tân Thới Nhất, Q.12, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#365_Phan_Văn_Hớn,_P.Tân_Thới_Nhất,_Q.12,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_12"/>
+     <absolute:DiaChi rdf:datatype="#string">365 Phan Văn Hớn, P.Tân Thới Nhất, Q.12, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 354 Lê Văn Khương, khu phố 2 , P. Thới An, Q. 12 , TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_354_Lê_Văn_Khương,_khu_phố_2_,_P._Thới_An,_Q._12_,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_12"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 354 Lê Văn Khương, khu phố 2 , P. Thới An, Q. 12 , TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------30/1 Hà Huy Giáp, Khu Phố 2, P.Thạnh Lộc, Q.12, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#30/1_Hà_Huy_Giáp,_Khu_Phố_2,_P.Thạnh_Lộc,_Q.12,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_12"/>
+     <absolute:DiaChi rdf:datatype="#string">30/1 Hà Huy Giáp, Khu Phố 2, P.Thạnh Lộc, Q.12, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------848 Lạc Long Quân,P.8, Q.Tân Bình, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#848_Lạc_Long_Quân,P.8,_Q.Tân_Bình,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string">848 Lạc Long Quân,P.8, Q.Tân Bình, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------359B Lê Văn Sỹ, P.1, Q.Tân Bình, TPHCM270B Lý Thường Kiệt, Phường 06, Quận Tân Bình, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#359B_Lê_Văn_Sỹ,_P.1,_Q.Tân_Bình,_TPHCM270B_Lý_Thường_Kiệt,_Phường_06,_Quận_Tân_Bình,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string">359B Lê Văn Sỹ, P.1, Q.Tân Bình, TPHCM270B Lý Thường Kiệt, Phường 06, Quận Tân Bình, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------670 Âu Cơ, P.10, Q. Tân Bình, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#670_Âu_Cơ,_P.10,_Q._Tân_Bình,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string">670 Âu Cơ, P.10, Q. Tân Bình, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------330 Cộng Hòa, P.13, Q.Tân Bình, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#330_Cộng_Hòa,_P.13,_Q.Tân_Bình,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string">330 Cộng Hòa, P.13, Q.Tân Bình, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------310 Trường Chinh, P.13, Q.Tân Bình, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#310_Trường_Chinh,_P.13,_Q.Tân_Bình,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string">310 Trường Chinh, P.13, Q.Tân Bình, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------960 - 962 Âu Cơ Phường 14 Quận Tân Bình TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#960_-_962_Âu_Cơ_Phường_14_Quận_Tân_Bình_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string">960 - 962 Âu Cơ Phường 14 Quận Tân Bình TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------292 Âu Cơ, P. 09, Q. Tân Bình, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#292_Âu_Cơ,_P._09,_Q._Tân_Bình,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string">292 Âu Cơ, P. 09, Q. Tân Bình, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+-------- (ngã tư Âu Cơ - Lạc Long Quân)Số 109-111 Bàu Cát, P.14, Q.Tân Bình, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#_(ngã_tư_Âu_Cơ_-_Lạc_Long_Quân)Số_109-111_Bàu_Cát,_P.14,_Q.Tân_Bình,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string"> (ngã tư Âu Cơ - Lạc Long Quân)Số 109-111 Bàu Cát, P.14, Q.Tân Bình, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------650 Trường Chinh, P.15, Q.Tân Bình, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#650_Trường_Chinh,_P.15,_Q.Tân_Bình,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string">650 Trường Chinh, P.15, Q.Tân Bình, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------759 Cách MạngTháng 8, P.6, Q.Tân Bình, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#759_Cách_MạngTháng_8,_P.6,_Q.Tân_Bình,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string">759 Cách MạngTháng 8, P.6, Q.Tân Bình, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 1A Phan Huy Ích, phường 15, quận Tân Bình , TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_1A_Phan_Huy_Ích,_phường_15,_quận_Tân_Bình_,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Tân_Bình"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 1A Phan Huy Ích, phường 15, quận Tân Bình , TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------452A-452D Lũy Bán Bích, Phường Hòa Thạnh, Quận Tân Phú, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#452A-452D_Lũy_Bán_Bích,_Phường_Hòa_Thạnh,_Quận_Tân_Phú,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#_Quận_Tân_Phú"/>
+     <absolute:DiaChi rdf:datatype="#string">452A-452D Lũy Bán Bích, Phường Hòa Thạnh, Quận Tân Phú, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------159 Thạch Lam, P. Hiệp Tân, Q. Tân Phú, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#159_Thạch_Lam,_P._Hiệp_Tân,_Q._Tân_Phú,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#_Quận_Tân_Phú"/>
+     <absolute:DiaChi rdf:datatype="#string">159 Thạch Lam, P. Hiệp Tân, Q. Tân Phú, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------239-241 Tân Hương, P. Tân Quý, Q. Tân Phú, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#239-241_Tân_Hương,_P._Tân_Quý,_Q._Tân_Phú,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#_Quận_Tân_Phú"/>
+     <absolute:DiaChi rdf:datatype="#string">239-241 Tân Hương, P. Tân Quý, Q. Tân Phú, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+-------- (cách chợ Tân Hương 50m)138B Gò Dầu, P. Tân Quý, Q. Tân Phú, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#_(cách_chợ_Tân_Hương_50m)138B_Gò_Dầu,_P._Tân_Quý,_Q._Tân_Phú,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#_Quận_Tân_Phú"/>
+     <absolute:DiaChi rdf:datatype="#string"> (cách chợ Tân Hương 50m)138B Gò Dầu, P. Tân Quý, Q. Tân Phú, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------414-416 Bình Long, P. Tân Quý, Q. Tân Phú, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#414-416_Bình_Long,_P._Tân_Quý,_Q._Tân_Phú,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#_Quận_Tân_Phú"/>
+     <absolute:DiaChi rdf:datatype="#string">414-416 Bình Long, P. Tân Quý, Q. Tân Phú, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------455 Tân Kỳ Tân Quý, P.Tân Quý, Q.Tân Phú, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#455_Tân_Kỳ_Tân_Quý,_P.Tân_Quý,_Q.Tân_Phú,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#_Quận_Tân_Phú"/>
+     <absolute:DiaChi rdf:datatype="#string">455 Tân Kỳ Tân Quý, P.Tân Quý, Q.Tân Phú, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------105 Tân Kỳ Tân Quý, P. Tân Sơn Nhì, Q. Tân Phú, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#105_Tân_Kỳ_Tân_Quý,_P._Tân_Sơn_Nhì,_Q._Tân_Phú,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#_Quận_Tân_Phú"/>
+     <absolute:DiaChi rdf:datatype="#string">105 Tân Kỳ Tân Quý, P. Tân Sơn Nhì, Q. Tân Phú, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------104 Hòa Bình, P.Phú Trung, Q.Tân Phú, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#104_Hòa_Bình,_P.Phú_Trung,_Q.Tân_Phú,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#_Quận_Tân_Phú"/>
+     <absolute:DiaChi rdf:datatype="#string">104 Hòa Bình, P.Phú Trung, Q.Tân Phú, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------171 Nguyễn Sơn, P.Phú Thạnh, Q.Tân Phú, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#171_Nguyễn_Sơn,_P.Phú_Thạnh,_Q.Tân_Phú,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#_Quận_Tân_Phú"/>
+     <absolute:DiaChi rdf:datatype="#string">171 Nguyễn Sơn, P.Phú Thạnh, Q.Tân Phú, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------153B Phan Đăng Lưu, P.02, Q.Phú Nhuận, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#153B_Phan_Đăng_Lưu,_P.02,_Q.Phú_Nhuận,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Phú_Nhuận"/>
+     <absolute:DiaChi rdf:datatype="#string">153B Phan Đăng Lưu, P.02, Q.Phú Nhuận, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------99A Nguyễn Văn Trỗi, P. 12, Q. Phú Nhuận, TP. HCM (gần ngã tư Nguyễn Văn Trỗi - Trần Huy Liệu)--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#99A_Nguyễn_Văn_Trỗi,_P._12,_Q._Phú_Nhuận,_TP._HCM_(gần_ngã_tư_Nguyễn_Văn_Trỗi_-_Trần_Huy_Liệu)">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Phú_Nhuận"/>
+     <absolute:DiaChi rdf:datatype="#string">99A Nguyễn Văn Trỗi, P. 12, Q. Phú Nhuận, TP. HCM (gần ngã tư Nguyễn Văn Trỗi - Trần Huy Liệu)</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 75-77 Lê Văn Sỹ, P. 13, Q. Phú Nhuận, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_75-77_Lê_Văn_Sỹ,_P._13,_Q._Phú_Nhuận,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Phú_Nhuận"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 75-77 Lê Văn Sỹ, P. 13, Q. Phú Nhuận, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------127 Hoàng Văn Thụ, P.08, Q.Phú Nhuận, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#127_Hoàng_Văn_Thụ,_P.08,_Q.Phú_Nhuận,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Phú_Nhuận"/>
+     <absolute:DiaChi rdf:datatype="#string">127 Hoàng Văn Thụ, P.08, Q.Phú Nhuận, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------12C - 12D Đường Nguyên Hồng , Phường 01 , Quận Gò Vấp, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#12C_-_12D_Đường_Nguyên_Hồng_,_Phường_01_,_Quận_Gò_Vấp,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">12C - 12D Đường Nguyên Hồng , Phường 01 , Quận Gò Vấp, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------.59 Quang Trung, P. 10, Q. Gò Vấp, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#.59_Quang_Trung,_P._10,_Q._Gò_Vấp,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">.59 Quang Trung, P. 10, Q. Gò Vấp, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------527 Phan Văn Trị, P. 05, Q. Gò Vấp, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#527_Phan_Văn_Trị,_P._05,_Q._Gò_Vấp,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">527 Phan Văn Trị, P. 05, Q. Gò Vấp, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 154 - 156 Lê Văn Thọ, P. 11, Q. Gò Vấp, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_154_-_156_Lê_Văn_Thọ,_P._11,_Q._Gò_Vấp,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 154 - 156 Lê Văn Thọ, P. 11, Q. Gò Vấp, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 620-622-624-626-628 Nguyễn Oanh, P. 6, Q. Gò Vấp, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_620-622-624-626-628_Nguyễn_Oanh,_P._6,_Q._Gò_Vấp,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 620-622-624-626-628 Nguyễn Oanh, P. 6, Q. Gò Vấp, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1A Nguyễn Kiệm, P.3, Q. Gò Vấp, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1A_Nguyễn_Kiệm,_P.3,_Q._Gò_Vấp,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">1A Nguyễn Kiệm, P.3, Q. Gò Vấp, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------644-646 Lê Đức Thọ, P.15, Q.Gò Vấp, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#644-646_Lê_Đức_Thọ,_P.15,_Q.Gò_Vấp,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">644-646 Lê Đức Thọ, P.15, Q.Gò Vấp, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 92-94 Nguyễn Oanh, P.07, Q. Gò Vấp, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_92-94_Nguyễn_Oanh,_P.07,_Q._Gò_Vấp,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 92-94 Nguyễn Oanh, P.07, Q. Gò Vấp, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------278 Phạm Văn Chiêu, P.9, Q.Gò Vấp, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#278_Phạm_Văn_Chiêu,_P.9,_Q.Gò_Vấp,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">278 Phạm Văn Chiêu, P.9, Q.Gò Vấp, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------867 - 867A - 867B Quang Trung, P.12, Q. Gò Vấp, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#867_-_867A_-_867B_Quang_Trung,_P.12,_Q._Gò_Vấp,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">867 - 867A - 867B Quang Trung, P.12, Q. Gò Vấp, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------199 Nguyễn Thái Sơn, P.7, Q. Gò Vấp, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#199_Nguyễn_Thái_Sơn,_P.7,_Q._Gò_Vấp,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">199 Nguyễn Thái Sơn, P.7, Q. Gò Vấp, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------259 Phan Huy Ích, P. 14, Q. Gò Vấp, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#259_Phan_Huy_Ích,_P._14,_Q._Gò_Vấp,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">259 Phan Huy Ích, P. 14, Q. Gò Vấp, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 9 (số cũ 189) Nguyễn Oanh, P. 10, Q. Gò Vấp, TP.HCM (ngã tư Nguyễn Oanh và Nguyễn Văn Lượng)--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_9_(số_cũ_189)_Nguyễn_Oanh,_P._10,_Q._Gò_Vấp,_TP.HCM_(ngã_tư_Nguyễn_Oanh_và_Nguyễn_Văn_Lượng)">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 9 (số cũ 189) Nguyễn Oanh, P. 10, Q. Gò Vấp, TP.HCM (ngã tư Nguyễn Oanh và Nguyễn Văn Lượng)</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------2/1B Quang Trung, Phường 11, Gò Vấp, TP.HCM ( Đầu đường Thống Nhất kế bên Ninomax Quang Trung)--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#2/1B_Quang_Trung,_Phường_11,_Gò_Vấp,_TP.HCM_(_Đầu_đường_Thống_Nhất_kế_bên_Ninomax_Quang_Trung)">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">2/1B Quang Trung, Phường 11, Gò Vấp, TP.HCM ( Đầu đường Thống Nhất kế bên Ninomax Quang Trung)</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------692, Quang Trung, P.8, Q.Gò Vấp, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#692,_Quang_Trung,_P.8,_Q.Gò_Vấp,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Gò_Vấp"/>
+     <absolute:DiaChi rdf:datatype="#string">692, Quang Trung, P.8, Q.Gò Vấp, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 820 Xô Viết Nghệ Tĩnh, P.25, Q. Bình Thạnh, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_820_Xô_Viết_Nghệ_Tĩnh,_P.25,_Q._Bình_Thạnh,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Thạnh"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 820 Xô Viết Nghệ Tĩnh, P.25, Q. Bình Thạnh, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------233 Nơ Trang Long, P.11, Q.Bình Thạnh, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#233_Nơ_Trang_Long,_P.11,_Q.Bình_Thạnh,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Thạnh"/>
+     <absolute:DiaChi rdf:datatype="#string">233 Nơ Trang Long, P.11, Q.Bình Thạnh, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------200 Đường D2 , Phường 25, Quận Bình Thạnh, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#200_Đường_D2_,_Phường_25,_Quận_Bình_Thạnh,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Thạnh"/>
+     <absolute:DiaChi rdf:datatype="#string">200 Đường D2 , Phường 25, Quận Bình Thạnh, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------26 Phan Đăng Lưu, P.6, Q. Bình Thạnh, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#26_Phan_Đăng_Lưu,_P.6,_Q._Bình_Thạnh,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Thạnh"/>
+     <absolute:DiaChi rdf:datatype="#string">26 Phan Đăng Lưu, P.6, Q. Bình Thạnh, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------307B Lê Quang Định, P.07, Q.Bình Thạnh, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#307B_Lê_Quang_Định,_P.07,_Q.Bình_Thạnh,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Thạnh"/>
+     <absolute:DiaChi rdf:datatype="#string">307B Lê Quang Định, P.07, Q.Bình Thạnh, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 316B Phan Văn Trị, P.11, Q. Bình Thạnh,TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_316B_Phan_Văn_Trị,_P.11,_Q._Bình_Thạnh,TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Thạnh"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 316B Phan Văn Trị, P.11, Q. Bình Thạnh,TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------134 Đinh Bộ Lĩnh P. 26, Q. Bình Thạnh,TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#134_Đinh_Bộ_Lĩnh_P._26,_Q._Bình_Thạnh,TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Thạnh"/>
+     <absolute:DiaChi rdf:datatype="#string">134 Đinh Bộ Lĩnh P. 26, Q. Bình Thạnh,TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------602/1 Điện Biên Phủ , P.22 , Q. Bình Thạnh, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#602/1_Điện_Biên_Phủ_,_P.22_,_Q._Bình_Thạnh,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Thạnh"/>
+     <absolute:DiaChi rdf:datatype="#string">602/1 Điện Biên Phủ , P.22 , Q. Bình Thạnh, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------188 Quốc Lộ 13, P. 26, Q. Bình Thạnh, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#188_Quốc_Lộ_13,_P._26,_Q._Bình_Thạnh,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Thạnh"/>
+     <absolute:DiaChi rdf:datatype="#string">188 Quốc Lộ 13, P. 26, Q. Bình Thạnh, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------154 Tô Ngọc Vân, P.Linh Tây, Q.Thủ Đức, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#154_Tô_Ngọc_Vân,_P.Linh_Tây,_Q.Thủ_Đức,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string">154 Tô Ngọc Vân, P.Linh Tây, Q.Thủ Đức, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------267D-267E Tô Ngọc Vân, P. Linh Đông, Q. Thủ Đức, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#267D-267E_Tô_Ngọc_Vân,_P._Linh_Đông,_Q._Thủ_Đức,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string">267D-267E Tô Ngọc Vân, P. Linh Đông, Q. Thủ Đức, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1208 Kha Vạn Cân, Khu phố 2, P.Linh Trung, Q.Thủ Đức, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1208_Kha_Vạn_Cân,_Khu_phố_2,_P.Linh_Trung,_Q.Thủ_Đức,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string">1208 Kha Vạn Cân, Khu phố 2, P.Linh Trung, Q.Thủ Đức, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------628-628A Kha Vạn Cân, Khu phố 8, P. Linh Đông, Q. Thủ Đức, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#628-628A_Kha_Vạn_Cân,_Khu_phố_8,_P._Linh_Đông,_Q._Thủ_Đức,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string">628-628A Kha Vạn Cân, Khu phố 8, P. Linh Đông, Q. Thủ Đức, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------340 - 342 Võ Văn Ngân, P.Bình Thọ, Q.Thủ Đức, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#340_-_342_Võ_Văn_Ngân,_P.Bình_Thọ,_Q.Thủ_Đức,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string">340 - 342 Võ Văn Ngân, P.Bình Thọ, Q.Thủ Đức, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------168 Hiệp Bình, P. Hiệp Bình Chánh, Q. Thủ Đức, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#168_Hiệp_Bình,_P._Hiệp_Bình_Chánh,_Q._Thủ_Đức,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string">168 Hiệp Bình, P. Hiệp Bình Chánh, Q. Thủ Đức, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+-------- (cách chợ Hiệp Bình 200m)129-131 Quốc Lộ 1K, Khu phố 5, Phường Linh Xuân, Quận Thủ Đức, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#_(cách_chợ_Hiệp_Bình_200m)129-131_Quốc_Lộ_1K,_Khu_phố_5,_Phường_Linh_Xuân,_Quận_Thủ_Đức,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string"> (cách chợ Hiệp Bình 200m)129-131 Quốc Lộ 1K, Khu phố 5, Phường Linh Xuân, Quận Thủ Đức, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------121 -123 Võ Văn Ngân, P.Linh Chiểu, Q.Thủ Đức, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#121_-123_Võ_Văn_Ngân,_P.Linh_Chiểu,_Q.Thủ_Đức,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string">121 -123 Võ Văn Ngân, P.Linh Chiểu, Q.Thủ Đức, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------838 Quốc Lộ 13, P. Hiệp Bình Phước, Q. Thủ Đức, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#838_Quốc_Lộ_13,_P._Hiệp_Bình_Phước,_Q._Thủ_Đức,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string">838 Quốc Lộ 13, P. Hiệp Bình Phước, Q. Thủ Đức, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+-------- (ngay vòng xoay ngã tư Bình Phước)349 Quốc Lộ 13, Khu Phố 5, P.Hiệp Bình Phước, Q.Thủ Đức, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#_(ngay_vòng_xoay_ngã_tư_Bình_Phước)349_Quốc_Lộ_13,_Khu_Phố_5,_P.Hiệp_Bình_Phước,_Q.Thủ_Đức,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string"> (ngay vòng xoay ngã tư Bình Phước)349 Quốc Lộ 13, Khu Phố 5, P.Hiệp Bình Phước, Q.Thủ Đức, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------744A Tỉnh Lộ 43, P. Bình Chiểu, Q.Thủ Đức, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#744A_Tỉnh_Lộ_43,_P._Bình_Chiểu,_Q.Thủ_Đức,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string">744A Tỉnh Lộ 43, P. Bình Chiểu, Q.Thủ Đức, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------32 Quốc lộ 1K, P.Linh Xuân, Q.Thủ Đức, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#32_Quốc_lộ_1K,_P.Linh_Xuân,_Q.Thủ_Đức,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Thủ_Đức"/>
+     <absolute:DiaChi rdf:datatype="#string">32 Quốc lộ 1K, P.Linh Xuân, Q.Thủ Đức, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------736 Hương Lộ 2, P. Bình Trị Đông A, Q. Bình Tân, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#736_Hương_Lộ_2,_P._Bình_Trị_Đông_A,_Q._Bình_Tân,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Tân"/>
+     <absolute:DiaChi rdf:datatype="#string">736 Hương Lộ 2, P. Bình Trị Đông A, Q. Bình Tân, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+-------- (ngay ngã 4 Hương Lộ 2 - Mã Lò, đối diện bệnh viện Bình Tân)269 Tân Hòa Đông, P. Bình Trị Đông, Q. Bình Tân , TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#_(ngay_ngã_4_Hương_Lộ_2_-_Mã_Lò,_đối_diện_bệnh_viện_Bình_Tân)269_Tân_Hòa_Đông,_P._Bình_Trị_Đông,_Q._Bình_Tân_,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Tân"/>
+     <absolute:DiaChi rdf:datatype="#string"> (ngay ngã 4 Hương Lộ 2 - Mã Lò, đối diện bệnh viện Bình Tân)269 Tân Hòa Đông, P. Bình Trị Đông, Q. Bình Tân , TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1302-1304-1306 Tỉnh Lộ 10, KP.5, P.Tân Tạo, Q. Bình Tân, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1302-1304-1306_Tỉnh_Lộ_10,_KP.5,_P.Tân_Tạo,_Q._Bình_Tân,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Tân"/>
+     <absolute:DiaChi rdf:datatype="#string">1302-1304-1306 Tỉnh Lộ 10, KP.5, P.Tân Tạo, Q. Bình Tân, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Lô S, tầng 2 Trung tâm mua sắm Aeon Mall Bình Tân - Lô PT1, Khu Y tế kỹ thuật cao, 532A Kinh Dương Vương, P. Bình Trị Đông B, Q. Bình Tân, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Lô_S,_tầng_2_Trung_tâm_mua_sắm_Aeon_Mall_Bình_Tân_-_Lô_PT1,_Khu_Y_tế_kỹ_thuật_cao,_532A_Kinh_Dương_Vương,_P._Bình_Trị_Đông_B,_Q._Bình_Tân,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Hóc_Môn"/>
+     <absolute:DiaChi rdf:datatype="#string">Lô S, tầng 2 Trung tâm mua sắm Aeon Mall Bình Tân - Lô PT1, Khu Y tế kỹ thuật cao, 532A Kinh Dương Vương, P. Bình Trị Đông B, Q. Bình Tân, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------566 Hương lộ 2, khu phố 6, P. Bình Trị Đông, Q. Bình Tân, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#566_Hương_lộ_2,_khu_phố_6,_P._Bình_Trị_Đông,_Q._Bình_Tân,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Hóc_Môn"/>
+     <absolute:DiaChi rdf:datatype="#string">566 Hương lộ 2, khu phố 6, P. Bình Trị Đông, Q. Bình Tân, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1615 Tỉnh Lộ 10, Khu phố 5, P.Tân Tạo A, Q.Bình Tân, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1615_Tỉnh_Lộ_10,_Khu_phố_5,_P.Tân_Tạo_A,_Q.Bình_Tân,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Hóc_Môn"/>
+     <absolute:DiaChi rdf:datatype="#string">1615 Tỉnh Lộ 10, Khu phố 5, P.Tân Tạo A, Q.Bình Tân, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------722 Tỉnh Lộ 10, Khu phố 18, P.Bình Trị Đông, Q.Bình Tân, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#722_Tỉnh_Lộ_10,_Khu_phố_18,_P.Bình_Trị_Đông,_Q.Bình_Tân,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Hóc_Môn"/>
+     <absolute:DiaChi rdf:datatype="#string">722 Tỉnh Lộ 10, Khu phố 18, P.Bình Trị Đông, Q.Bình Tân, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------287 Lê Văn Quới, P. Bình Trị Đông, Q. Bình Tân, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#287_Lê_Văn_Quới,_P._Bình_Trị_Đông,_Q._Bình_Tân,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Hóc_Môn"/>
+     <absolute:DiaChi rdf:datatype="#string">287 Lê Văn Quới, P. Bình Trị Đông, Q. Bình Tân, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------314 Hồ Học Lãm, P. An Lạc, Q. Bình Tân, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#314_Hồ_Học_Lãm,_P._An_Lạc,_Q._Bình_Tân,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Hóc_Môn"/>
+     <absolute:DiaChi rdf:datatype="#string">314 Hồ Học Lãm, P. An Lạc, Q. Bình Tân, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1036 Tân Kỳ -Tân Quý, P. Bình Hưng Hòa, Q.Bình Tân, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1036_Tân_Kỳ_-Tân_Quý,_P._Bình_Hưng_Hòa,_Q.Bình_Tân,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Hóc_Môn"/>
+     <absolute:DiaChi rdf:datatype="#string">1036 Tân Kỳ -Tân Quý, P. Bình Hưng Hòa, Q.Bình Tân, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------229 Nguyễn Thị Tú, P.Bình Hưng Hòa B, Q.Bình Tân, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#229_Nguyễn_Thị_Tú,_P.Bình_Hưng_Hòa_B,_Q.Bình_Tân,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Hóc_Môn"/>
+     <absolute:DiaChi rdf:datatype="#string">229 Nguyễn Thị Tú, P.Bình Hưng Hòa B, Q.Bình Tân, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1024 Hương Lộ 2, KP 6, P.Bình Trị Đông A, Quận Bình Tân, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1024_Hương_Lộ_2,_KP_6,_P.Bình_Trị_Đông_A,_Quận_Bình_Tân,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Hóc_Môn"/>
+     <absolute:DiaChi rdf:datatype="#string">1024 Hương Lộ 2, KP 6, P.Bình Trị Đông A, Quận Bình Tân, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------473 Kinh Dương Vương , phường An Lạc , quận BÌNH TÂN , TPHCM (ngay ngã ba Kinh Dương Vương - Tên Lửa).739 Lê Trọng Tấn, KP2, P. Bình Hưng Hòa, Q. Bình Tân, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#473_Kinh_Dương_Vương_,_phường_An_Lạc_,_quận_BÌNH_TÂN_,_TPHCM_(ngay_ngã_ba_Kinh_Dương_Vương_-_Tên_Lửa).739_Lê_Trọng_Tấn,_KP2,_P._Bình_Hưng_Hòa,_Q._Bình_Tân,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Hóc_Môn"/>
+     <absolute:DiaChi rdf:datatype="#string">473 Kinh Dương Vương , phường An Lạc , quận BÌNH TÂN , TPHCM (ngay ngã ba Kinh Dương Vương - Tên Lửa).739 Lê Trọng Tấn, KP2, P. Bình Hưng Hòa, Q. Bình Tân, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------57/3 Quốc Lộ 22, X. Xuân Thới Đông, H. Hóc Môn, TP. HCM (ngã 3 QL.22 - Lê Thị Hà, gần giáo xứ Bùi Môn)--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#57/3_Quốc_Lộ_22,_X._Xuân_Thới_Đông,_H._Hóc_Môn,_TP._HCM_(ngã_3_QL.22_-_Lê_Thị_Hà,_gần_giáo_xứ_Bùi_Môn)">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Củ_Chi"/>
+     <absolute:DiaChi rdf:datatype="#string">57/3 Quốc Lộ 22, X. Xuân Thới Đông, H. Hóc Môn, TP. HCM (ngã 3 QL.22 - Lê Thị Hà, gần giáo xứ Bùi Môn)</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1/146A ấp Tân Lập, xã Tân Thới Nhì, Huyện Hóc Môn, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1/146A_ấp_Tân_Lập,_xã_Tân_Thới_Nhì,_Huyện_Hóc_Môn,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Củ_Chi"/>
+     <absolute:DiaChi rdf:datatype="#string">1/146A ấp Tân Lập, xã Tân Thới Nhì, Huyện Hóc Môn, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số 30/10 Nguyễn Ảnh Thủ, Ấp Đông , xã Thới Tam Thôn, H. Hóc Môn , TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_30/10_Nguyễn_Ảnh_Thủ,_Ấp_Đông_,_xã_Thới_Tam_Thôn,_H._Hóc_Môn_,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Củ_Chi"/>
+     <absolute:DiaChi rdf:datatype="#string">Số 30/10 Nguyễn Ảnh Thủ, Ấp Đông , xã Thới Tam Thôn, H. Hóc Môn , TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------22/5 Phan Văn Hớn, ấp 7, xã Xuân Thới Thượng, Huyện Hóc Môn, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#22/5_Phan_Văn_Hớn,_ấp_7,_xã_Xuân_Thới_Thượng,_Huyện_Hóc_Môn,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Củ_Chi"/>
+     <absolute:DiaChi rdf:datatype="#string">22/5 Phan Văn Hớn, ấp 7, xã Xuân Thới Thượng, Huyện Hóc Môn, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1/1A Vạn Hạnh, X. Trung Chánh, H. Hốc Môn, TP. HCM (trên đường Nguyễn Ảnh Thủ, gần trường THPT Nguyễn Hữu Cầu cũ)--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1/1A_Vạn_Hạnh,_X._Trung_Chánh,_H._Hốc_Môn,_TP._HCM_(trên_đường_Nguyễn_Ảnh_Thủ,_gần_trường_THPT_Nguyễn_Hữu_Cầu_cũ)">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Củ_Chi"/>
+     <absolute:DiaChi rdf:datatype="#string">1/1A Vạn Hạnh, X. Trung Chánh, H. Hốc Môn, TP. HCM (trên đường Nguyễn Ảnh Thủ, gần trường THPT Nguyễn Hữu Cầu cũ)</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------12/2A Ấp 3, xã Phú Xuân, Huyện Nhà Bè, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#12/2A_Ấp_3,_xã_Phú_Xuân,_Huyện_Nhà_Bè,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Nhà_Bè"/>
+     <absolute:DiaChi rdf:datatype="#string">12/2A Ấp 3, xã Phú Xuân, Huyện Nhà Bè, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1787 Huỳnh Tấn Phát, khu phố 4, thị trấn Nhà Bè, huyện Nhà Bè, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1787_Huỳnh_Tấn_Phát,_khu_phố_4,_thị_trấn_Nhà_Bè,_huyện_Nhà_Bè,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Nhà_Bè"/>
+     <absolute:DiaChi rdf:datatype="#string">1787 Huỳnh Tấn Phát, khu phố 4, thị trấn Nhà Bè, huyện Nhà Bè, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------D1/9/40 - D2/40A ấp 4, xã Hưng Long, H. Bình Chánh, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#D1/9/40_-_D2/40A_ấp_4,_xã_Hưng_Long,_H._Bình_Chánh,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Chánh"/>
+     <absolute:DiaChi rdf:datatype="#string">D1/9/40 - D2/40A ấp 4, xã Hưng Long, H. Bình Chánh, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------C5/20 Phạm Hùng, Ấp 4A, Xã Bình Hưng, H.Bình Chánh, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#C5/20_Phạm_Hùng,_Ấp_4A,_Xã_Bình_Hưng,_H.Bình_Chánh,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Chánh"/>
+     <absolute:DiaChi rdf:datatype="#string">C5/20 Phạm Hùng, Ấp 4A, Xã Bình Hưng, H.Bình Chánh, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Ấp 1, Nguyễn Cửu Phú, Xã Tân Kiên, H.Bình Chánh, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Ấp_1,_Nguyễn_Cửu_Phú,_Xã_Tân_Kiên,_H.Bình_Chánh,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Chánh"/>
+     <absolute:DiaChi rdf:datatype="#string">Ấp 1, Nguyễn Cửu Phú, Xã Tân Kiên, H.Bình Chánh, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------B6/192 Ấp 2, xã Phong Phú, H.Bình Chánh, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#B6/192_Ấp_2,_xã_Phong_Phú,_H.Bình_Chánh,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Chánh"/>
+     <absolute:DiaChi rdf:datatype="#string">B6/192 Ấp 2, xã Phong Phú, H.Bình Chánh, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------A11/1 Ấp 2, Xã Bình Hưng, H.Bình Chánh, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#A11/1_Ấp_2,_Xã_Bình_Hưng,_H.Bình_Chánh,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Chánh"/>
+     <absolute:DiaChi rdf:datatype="#string">A11/1 Ấp 2, Xã Bình Hưng, H.Bình Chánh, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------D7/23, ấp 4, Nguyễn Thị Tú, Xã Vĩnh Lộc B, Huyện Bình Chánh, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#D7/23,_ấp_4,_Nguyễn_Thị_Tú,_Xã_Vĩnh_Lộc_B,_Huyện_Bình_Chánh,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Chánh"/>
+     <absolute:DiaChi rdf:datatype="#string">D7/23, ấp 4, Nguyễn Thị Tú, Xã Vĩnh Lộc B, Huyện Bình Chánh, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------A4/15 Ấp 1, xã Lê Minh Xuân, H. Bình Chánh, TP.HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#A4/15_Ấp_1,_xã_Lê_Minh_Xuân,_H._Bình_Chánh,_TP.HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Chánh"/>
+     <absolute:DiaChi rdf:datatype="#string">A4/15 Ấp 1, xã Lê Minh Xuân, H. Bình Chánh, TP.HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------Số D13/40 Ấp 4, Xã Vĩnh Lộc A, H.Bình Chánh, TP.Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#Số_D13/40_Ấp_4,_Xã_Vĩnh_Lộc_A,_H.Bình_Chánh,_TP.Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Chánh"/>
+     <absolute:DiaChi rdf:datatype="#string">Số D13/40 Ấp 4, Xã Vĩnh Lộc A, H.Bình Chánh, TP.Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------1A93/2 Ấp 1, xã Phạm Văn Hai, huyện Bình Chánh, TP. Hồ Chí Minh--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#1A93/2_Ấp_1,_xã_Phạm_Văn_Hai,_huyện_Bình_Chánh,_TP._Hồ_Chí_Minh">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Bình_Chánh"/>
+     <absolute:DiaChi rdf:datatype="#string">1A93/2 Ấp 1, xã Phạm Văn Hai, huyện Bình Chánh, TP. Hồ Chí Minh</absolute:DiaChi>
+</owl:NamedIndividual>
+
+--------01CK Đào Cử, TT. Cần Thạnh, H. Cần Giờ, TP. HCM--------
+ <owl:NamedIndividual rdf:about="urn:absolute:#01CK_Đào_Cử,_TT._Cần_Thạnh,_H._Cần_Giờ,_TP._HCM">
+     <rdf:type rdf:resource="urn:absolute:#CuaHangBanDienThoai"/>
+     <absolute:TrucThuoc rdf:resource="urn:absolute:#Quận_Cần_Giờ"/>
+     <absolute:DiaChi rdf:datatype="#string">01CK Đào Cử, TT. Cần Thạnh, H. Cần Giờ, TP. HCM</absolute:DiaChi>
+</owl:NamedIndividual>
+

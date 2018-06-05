@@ -1,0 +1,7 @@
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\OntologyWriteData\bin\Debug\OntologyWriteData.exe.config
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\OntologyWriteData\obj\Debug\OntologyWriteData.csprojResolveAssemblyReference.cache
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\OntologyWriteData\bin\Debug\OntologyWriteData.exe
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\OntologyWriteData\bin\Debug\OntologyWriteData.pdb
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\OntologyWriteData\obj\Debug\OntologyWriteData.csproj.ResolveComReference.cache
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\OntologyWriteData\obj\Debug\OntologyWriteData.exe
+C:\Users\Wind\documents\visual studio 2013\Projects\ReadWrite\OntologyWriteData\obj\Debug\OntologyWriteData.pdb
