@@ -31,6 +31,7 @@
             this.bunifuDropdown1 = new Bunifu.Framework.UI.BunifuDropdown();
             this.bunifuDropdown2 = new Bunifu.Framework.UI.BunifuDropdown();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuDropdown1
@@ -46,10 +47,12 @@
             this.bunifuDropdown1.selectedIndex = -1;
             this.bunifuDropdown1.Size = new System.Drawing.Size(263, 35);
             this.bunifuDropdown1.TabIndex = 0;
+            this.bunifuDropdown1.onItemSelected += new System.EventHandler(this.bunifuDropdown1_onItemSelected);
             // 
             // bunifuDropdown2
             // 
-            this.bunifuDropdown2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuDropdown2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuDropdown2.BackColor = System.Drawing.Color.White;
             this.bunifuDropdown2.BorderRadius = 3;
             this.bunifuDropdown2.ForeColor = System.Drawing.Color.MidnightBlue;
@@ -61,6 +64,7 @@
             this.bunifuDropdown2.selectedIndex = -1;
             this.bunifuDropdown2.Size = new System.Drawing.Size(263, 35);
             this.bunifuDropdown2.TabIndex = 1;
+            this.bunifuDropdown2.onItemSelected += new System.EventHandler(this.bunifuDropdown2_onItemSelected);
             // 
             // panel1
             // 
@@ -69,10 +73,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel1.Location = new System.Drawing.Point(14, 56);
+            this.panel1.Location = new System.Drawing.Point(14, 55);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(532, 371);
             this.panel1.TabIndex = 2;
+            // 
+            // googleMap1
+            // 
             // 
             // StorePanel
             // 
@@ -84,6 +91,8 @@
             this.Controls.Add(this.bunifuDropdown1);
             this.Name = "StorePanel";
             this.Size = new System.Drawing.Size(560, 439);
+            this.Load += new System.EventHandler(this.StorePanel_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

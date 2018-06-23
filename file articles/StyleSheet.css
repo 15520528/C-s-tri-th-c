@@ -1,0 +1,10 @@
+.imgwrap img {
+    width: 500px;
+    height: auto;
+}
+a {
+	text-decoration: none;
+}
+body{
+	font-family: "Arial", Times, serif;
+}

@@ -1,0 +1,58 @@
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Đồ án cơ sở tri thức.exe.config
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Đồ án cơ sở tri thức.exe
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Đồ án cơ sở tri thức.pdb
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Form1.resources
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Properties.Resources.resources
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.csproj.GenerateResource.Cache
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.csproj.CoreCompileInputs.cache
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.exe
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.pdb
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.TuVan.resources
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.MyApp.resources
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Phone.resources
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.PhoneShow.resources
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Form2.resources
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.BrandSelection.resources
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.StorePanel.resources
+C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.csprojResolveAssemblyReference.cache
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Đồ án cơ sở tri thức.exe.config
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.exe
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.pdb
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Đồ án cơ sở tri thức.exe
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Đồ án cơ sở tri thức.pdb
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.csprojResolveAssemblyReference.cache
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.BrandSelection.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Form1.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Form2.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.MyApp.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.PhoneShow.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Properties.Resources.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Phone.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.StorePanel.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.TuVan.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.csproj.GenerateResource.Cache
+D:\Documents\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Đồ án cơ sở tri thức.exe.config
+D:\Documents\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.exe
+D:\Documents\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.pdb
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Đồ án cơ sở tri thức.exe.config
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.exe
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.pdb
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Đồ án cơ sở tri thức.exe
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Đồ án cơ sở tri thức.pdb
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.csprojResolveAssemblyReference.cache
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.BrandSelection.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Form1.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Form2.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.MyApp.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.PhoneShow.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Properties.Resources.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.Phone.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.StorePanel.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ_án_cơ_sở_tri_thức.TuVan.resources
+C:\Users\Wind\Desktop\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\obj\Debug\Đồ án cơ sở tri thức.csproj.GenerateResource.Cache

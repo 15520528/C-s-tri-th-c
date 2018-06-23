@@ -33,12 +33,13 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.storePanel1 = new Đồ_án_cơ_sở_tri_thức.StorePanel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.NameButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.storePanel1 = new Đồ_án_cơ_sở_tri_thức.StorePanel();
             this.phone1 = new Đồ_án_cơ_sở_tri_thức.Phone();
             this.tuVan1 = new Đồ_án_cơ_sở_tri_thức.TuVan();
             this.phone2 = new Đồ_án_cơ_sở_tri_thức.Phone();
@@ -49,15 +50,17 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(140, 535);
+            this.panel1.Size = new System.Drawing.Size(440, 588);
             this.panel1.TabIndex = 0;
             // 
             // button3
@@ -119,6 +122,7 @@
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.Snow;
+            this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.bunifuFlatButton3);
             this.panel2.Controls.Add(this.bunifuImageButton1);
             this.panel2.Controls.Add(this.bunifuFlatButton2);
@@ -126,20 +130,17 @@
             this.panel2.Controls.Add(this.NameButton1);
             this.panel2.Location = new System.Drawing.Point(140, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(671, 52);
+            this.panel2.Size = new System.Drawing.Size(1036, 52);
             this.panel2.TabIndex = 3;
             // 
-            // storePanel1
+            // textBox1
             // 
-            this.storePanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.storePanel1.AutoScroll = true;
-            this.storePanel1.BackColor = System.Drawing.Color.White;
-            this.storePanel1.Location = new System.Drawing.Point(140, 51);
-            this.storePanel1.Name = "storePanel1";
-            this.storePanel1.Size = new System.Drawing.Size(671, 481);
-            this.storePanel1.TabIndex = 5;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(549, 12);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(172, 26);
+            this.textBox1.TabIndex = 10;
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // bunifuFlatButton3
             // 
@@ -296,37 +297,55 @@
             this.NameButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NameButton1.Click += new System.EventHandler(this.NameButton1_Click);
             // 
+            // storePanel1
+            // 
+            this.storePanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.storePanel1.AutoScroll = true;
+            this.storePanel1.BackColor = System.Drawing.Color.White;
+            this.storePanel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.storePanel1.Location = new System.Drawing.Point(140, 48);
+            this.storePanel1.Name = "storePanel1";
+            this.storePanel1.Size = new System.Drawing.Size(1036, 537);
+            this.storePanel1.TabIndex = 5;
+            // 
             // phone1
             // 
-            this.phone1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.phone1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.phone1.AutoScroll = true;
             this.phone1.BackColor = System.Drawing.Color.White;
             this.phone1.Location = new System.Drawing.Point(140, 50);
             this.phone1.Name = "phone1";
-            this.phone1.Size = new System.Drawing.Size(671, 440);
+            this.phone1.Size = new System.Drawing.Size(1036, 538);
             this.phone1.TabIndex = 2;
             // 
             // tuVan1
             // 
-            this.tuVan1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.tuVan1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tuVan1.AutoScroll = true;
             this.tuVan1.BackColor = System.Drawing.Color.White;
             this.tuVan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tuVan1.Location = new System.Drawing.Point(140, 51);
+            this.tuVan1.Location = new System.Drawing.Point(140, 48);
             this.tuVan1.Margin = new System.Windows.Forms.Padding(4);
             this.tuVan1.Name = "tuVan1";
-            this.tuVan1.Size = new System.Drawing.Size(671, 439);
+            this.tuVan1.Size = new System.Drawing.Size(1036, 540);
             this.tuVan1.TabIndex = 1;
             // 
             // phone2
             // 
+            this.phone2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.phone2.AutoScroll = true;
-            this.phone2.BackColor = System.Drawing.Color.Gold;
+            this.phone2.BackColor = System.Drawing.Color.White;
             this.phone2.Location = new System.Drawing.Point(140, 51);
             this.phone2.Name = "phone2";
-            this.phone2.Size = new System.Drawing.Size(671, 439);
+            this.phone2.Size = new System.Drawing.Size(1036, 537);
             this.phone2.TabIndex = 4;
             this.phone2.Visible = false;
             // 
@@ -334,7 +353,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(811, 535);
+            this.ClientSize = new System.Drawing.Size(1176, 588);
             this.Controls.Add(this.storePanel1);
             this.Controls.Add(this.phone2);
             this.Controls.Add(this.panel2);
@@ -346,6 +365,7 @@
             this.Load += new System.EventHandler(this.MyApp_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.ResumeLayout(false);
 
@@ -367,5 +387,6 @@
         private Phone phone2;
         private System.Windows.Forms.Button button3;
         private StorePanel storePanel1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

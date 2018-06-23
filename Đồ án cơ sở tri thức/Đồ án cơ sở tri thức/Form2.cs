@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,55 @@ namespace Đồ_án_cơ_sở_tri_thức
         private void KeyLeave(object sender, System.EventArgs e)
         {
             (sender as Label).ForeColor = Color.FromArgb(0, 192, 192);
+        }
+
+        //Link tới bài viết
+        private void MouseClick(Object sender, MouseEventArgs e)
+        {
+            String Keyword = (sender as Label).Text;
+            String HtmlFilelPath = "";
+            if ("HDR, ".Contains(Keyword))
+            {
+                HtmlFilelPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\Articles\" + "HDR.html";
+            }
+            else if ("Quay phim 4K  2160p@60fps Quay phim 4K 2160p@30fps Quay phim FullHD 1080p@30fps Quay phim siêu chậm 960 fps Quay phim FullHD 1080p@60fps Có quay phim  Quay phim QVGA@15fps Quay phim HD 720p@30fps".Contains(Keyword.Substring(0, Keyword.Length - 2)))
+            {
+                HtmlFilelPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\Articles\" + "chuan-quay-phim-tren-dien-thoai.html";
+            }
+            else if("TFT IPS LCD Super AMOLED Super LCD Super LCD 3 IPS TFT LTPS LCD IPS HDR LCD".Contains(Keyword.Substring(0, Keyword.Length - 2)))
+            {
+                HtmlFilelPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\Articles\" + "loai-man-hinh-tft-lcd-amoled-la-gi.html";    
+            }
+            else if ("Android 4.4 (KitKat) ".Contains(Keyword))
+            {
+                HtmlFilelPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\Articles\" + "he-dieu-hanh-android-qua-cac-phien-ban-cap-nhat.html";
+            }
+            else if ("HD (1334 x 750 Pixels) Full HD (1080 x 1920 pixels) 1125 x 2436 Pixels qHD (540 x 960 pixels) HD (720 x 1280 pixels) HD+ (720 × 1480 Pixels) Full HD+ (1080 x 2220 Pixels) 2K+ (1440 x 2960 Pixels)".Contains(Keyword))
+            {
+                HtmlFilelPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\Articles\" + "do-phan-giai-man-hinh-qhd-hd-fullhd-2k-4k-la-gi.html";
+            }
+            else if ("Kính oleophobic (ion cường lực) Kính thường Kính cường lực Kính cường lực Gorilla Glass 4 Kính cường lực Gorilla Glass 3 ".Contains(Keyword))
+            {
+                HtmlFilelPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\Articles\" + "kinh-cuong-luc-la-gi.html";
+            }
+            else if ("ColorOS 3.2 (Android 7.1) ColorOS 5.0 (Android 8.1)".Contains(Keyword))
+            {
+                HtmlFilelPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\Articles\" + "ColorOS.html";
+            }
+            else
+            {
+                HtmlFilelPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\Articles\" + Keyword + ".html";
+                if (Keyword.Contains(","))
+                {
+                    HtmlFilelPath = HtmlFilelPath.Remove(HtmlFilelPath.LastIndexOf(","), 1);
+                }
+            }
+            if (File.Exists(HtmlFilelPath))
+            {
+                ArticleForm x = new ArticleForm(Keyword, HtmlFilelPath);
+                x.Show();
+                this.Close();
+            }
         }
 
         public Form2(SmartPhone Phone)
@@ -58,6 +108,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                     CongNgheManHinh.Show();
                     CongNgheManHinh.MouseHover += new EventHandler(KeyHover);
                     CongNgheManHinh.MouseLeave += new EventHandler(KeyLeave);
+                    CongNgheManHinh.MouseClick += new MouseEventHandler(MouseClick);
                 }
 
                 //độ phân giải
@@ -72,6 +123,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                     DoPG.Cursor = Cursors.Hand;
                     DoPG.MouseHover += new EventHandler(KeyHover);
                     DoPG.MouseLeave += new EventHandler(KeyLeave);
+                    DoPG.MouseClick += new MouseEventHandler(MouseClick);
                     DoPG.Show();
                 }
 
@@ -99,6 +151,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                     MatKCU.Cursor = Cursors.Hand;
                     MatKCU.MouseHover += new EventHandler(KeyHover);
                     MatKCU.MouseLeave += new EventHandler(KeyLeave);
+                    MatKCU.MouseClick += new MouseEventHandler(MouseClick);
                     MatKCU.Show();
                 }
             }
@@ -171,12 +224,13 @@ namespace Đồ_án_cơ_sở_tri_thức
                         QuayPhim[i].Cursor = Cursors.Hand;
                         QuayPhim[i].MouseHover += new EventHandler(KeyHover);
                         QuayPhim[i].MouseLeave += new EventHandler(KeyLeave);
+                        QuayPhim[i].MouseClick += new MouseEventHandler(MouseClick);
                         QuayPhim[i].Show();
                         i++;
                     }
                 }
 
-                //mặt kính cảm ứng
+                //Đèn flash
                 {
                     Label Flash = new Label();
                     this.Controls.Add(Flash);
@@ -222,6 +276,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                         ChupAnhNC[i].Cursor = Cursors.Hand;
                         ChupAnhNC[i].MouseHover += new EventHandler(KeyHover);
                         ChupAnhNC[i].MouseLeave += new EventHandler(KeyLeave);
+                        ChupAnhNC[i].MouseClick += new MouseEventHandler(MouseClick);
                         ChupAnhNC[i].Show();
                         i++;
                     }
@@ -308,6 +363,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                     HeDieuHanh.Cursor = Cursors.Hand;
                     HeDieuHanh.MouseHover += new EventHandler(KeyHover);
                     HeDieuHanh.MouseLeave += new EventHandler(KeyLeave);
+                    HeDieuHanh.MouseClick += new MouseEventHandler(MouseClick);
                     HeDieuHanh.Show();
                 }
 

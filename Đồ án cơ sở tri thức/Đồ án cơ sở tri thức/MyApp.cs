@@ -13,6 +13,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Collections;
 using System.Xml;
+using System.Windows.Input;
 
 namespace Đồ_án_cơ_sở_tri_thức
 {
@@ -33,7 +34,6 @@ namespace Đồ_án_cơ_sở_tri_thức
 
         private void MyApp_Load(object sender, EventArgs e)
         {
-
             PhonePicturePath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) +@"\hinh\";
             Console.WriteLine(PhonePicturePath);
             //Khởi tạo giao diện lọc điện thoại theo hãng
@@ -41,26 +41,37 @@ namespace Đồ_án_cơ_sở_tri_thức
             phone1.BringToFront();
             brandSelection2.PassParameters += new BrandSelection.ClickTo(PhoneFilterClick);
             tuVan1.PassParameters += new TuVan.ClickTo(PhoneInterenceResult);
-
             this.Controls.Add(brandSelection2);
 
             //đọc thông tin điện thoại
             this.LoadSmartPhoneInfo();
 
+            this.Phone2_Load();
+
             //Show danh sách điện thoại ra màn hình
             this.ShowPhone(this.PhoneList);
+
+            //Console.WriteLine(string.Join("\n", KetQuaTimKiem("nokia").ToArray()));
         }
 
         //Hiển thị danh sách điện thoại 
         private void ShowPhone(List<SmartPhone> list)
         {
-            int row = (list.Count / 3) + 1;
-            int y = 0;
+            int row = (list.Count / 5) + 1;
+            Label phoneCount = new Label();
+            phoneCount.Name = "phoneCount";
+            phoneCount.Text = list.Count.ToString() + " Điện thoại";
+            phoneCount.AutoSize = true;
+            phoneCount.Location = new Point(390, 20);
+            phoneCount.ForeColor = Color.FromArgb(255, 128, 0);
+            phoneCount.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
+            panel2.Controls.Add(phoneCount);
+            int y = 50;
             int index = 0;
             for (int i = 0; i < row; i++)
             {
                 int x = 0;
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < 5; j++)
                 {
                     if (index <= list.Count - 1)
                     {
@@ -69,6 +80,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                         phone.Controls["NameButton1"].Text = list[index].TenDienThoai;
                         phone.Controls["PriceButton1"].Text = list[index].Gia + " VNĐ";
                         phone.Controls["pictureBox1"].BackgroundImage = Image.FromFile(PhonePicturePath+ list[index].TenDienThoai +".PNG");
+                        phone.Controls["label1"].Hide();
                         phone1.Controls.Add(phone);
                         x += 210;
                     }
@@ -79,43 +91,43 @@ namespace Đồ_án_cơ_sở_tri_thức
         }
 
         //show điện thoại từ kết quả tư vấn 
-        protected void PhoneInterenceResult(HashSet<String> InferenceList)
+        protected void PhoneInterenceResult(Dictionary<string,float> InferenceList)
         {
-            List<String> list = InferenceList.ToList();
-            //MessageBox.Show(string.Join(",", InferenceList));
-            int row = (list.Count / 3) + 1;
+            Dictionary<String,float> list = InferenceList.ToDictionary(t=>t.Key,t=>t.Value);
+            foreach (Control phone in phone2.Controls)
+            {
+                phone.Visible = false;
+            }
+            //System.Console.WriteLine(phone2.Controls.Count);
+            int row = (list.Count / 5) + 1;
             int y = 0;
-            int Count = 0;
+            int index = 0;
             for (int i = 0; i < row; i++)
             {
                 int x = 0;
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < 5; j++)
                 {
-                    if (Count <= list.Count - 1)
+                    if (index <= list.Count - 1)
                     {
-                        int index = 0;
-                        foreach (SmartPhone Phone in PhoneList)
-                        {
-                            if (Phone.TenDienThoai == list[Count])
-                            {
-                                break;
-                            }
-                            index++;
-                        }
-                        PhoneShow phone = new PhoneShow();
-                        phone.Location = new Point(x, y);
-                        phone.Controls["NameButton1"].Text = PhoneList[index].TenDienThoai;
-                        phone.Controls["PriceButton1"].Text = PhoneList[index].Gia + " VNĐ";
-                        phone.Controls["pictureBox1"].BackgroundImage = Image.FromFile(PhonePicturePath + PhoneList[index].TenDienThoai + ".PNG");
-                        phone2.Controls.Add(phone);
+                        //Console.WriteLine(list[index]);
+                        phone2.Controls[index].Location = new Point(x, y);
+                        phone2.Controls[index].Controls["NameButton1"].Text = list.ElementAt(index).Key;
+                        phone2.Controls[index].Controls["pictureBox1"].BackgroundImage = Image.FromFile(PhonePicturePath + list.ElementAt(index).Key + ".PNG");
+
+                        //thêm tỷ lệ tư vấn chính xác cho điện thoại
+                        //Rate.Location = new Point(x, y + 240);
+                        phone2.Controls[index].Controls["label1"].Text = (list.ElementAt(index).Value * 100).ToString() + " %";
+                        phone2.Controls[index].Visible = true;
+                        //phone1.Controls[i].Controls["PriceButton1"].Text = list[index].Gia + " VNĐ";
                         x += 210;
                     }
-                    Count++;
+                    index++;
                 }
-                y += 270;
+                y += 280;
             }
             phone2.Visible = true;
             phone2.BringToFront();
+            panel2.Controls["phoneCount"].Text = list.Count.ToString() + " Điện thoại";//hiển thị tổng số điện thoại được show lên giao diện
         }
 
         //Show điện thoại ra giao diện với danh sách các hãng được check
@@ -134,19 +146,21 @@ namespace Đồ_án_cơ_sở_tri_thức
             this.PhoneFilter(list);
         }
 
+        //lọc và show lên màn hình một danh sách điện thoại
         private void PhoneFilter(List<String> list)
         {
+            panel2.Controls["phoneCount"].Text = list.Count.ToString() + " Điện thoại";//hiển thị tổng số điện thoại được show lên giao diện
             foreach (Control phone in phone1.Controls)
             {
                 phone.Visible = false;
             }
-            int row = (list.Count / 3) + 1;
+            int row = (list.Count / 5) + 1;
             int y = 0;
             int index = 0;
             for (int i = 0; i < row; i++)
             {
                 int x = 0;
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < 5; j++)
                 {
                     if (index <= list.Count - 1)
                     {
@@ -178,18 +192,6 @@ namespace Đồ_án_cơ_sở_tri_thức
         //load thong tin dien thoai tu file cau truc
         private void LoadSmartPhoneInfo()
         {
-            //CurrenFolderPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\";
-            //XDocument doc = XDocument.Load(CurrenFolderPath + "SmartPhoneData.json");
-            //foreach (var element in doc.Root.Elements())
-            //{
-            //    String jsonString = element.Value.ToString();
-            //    jsonString = jsonString.Trim();
-            //    jsonString = jsonString.Insert(0, "{");
-            //    jsonString = jsonString.Insert(jsonString.Length, "}");
-            //    SmartPhone phone = JsonHelper.ToClass<SmartPhone>(jsonString);
-            //    //Console.WriteLine(phone.DoPhanGiai);
-            //    PhoneList.Add(phone);
-            //}
             String[] Str;
             String jsonString = "{";
             CurrenFolderPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath) + @"\Knowledge base\";
@@ -459,7 +461,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                                 String GhiAm = String.Join(",", Str).Insert(0, "[");
                                 GhiAm = GhiAm.Insert(GhiAm.Length, "]");
                                 //Console.WriteLine(GhiAm);
-                                jsonString += "XemPim:" + GhiAm + ",";
+                                jsonString += "GhiAm:" + GhiAm + ",";
                                 break;
                         case "Radio":
                             String Radio = reader.ReadElementContentAsString();
@@ -506,7 +508,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                             String Gia = reader.ReadElementContentAsString();
                                 jsonString += "Gia:" + "'" + Gia +"'";
                                 jsonString += "}";
-                                Console.WriteLine(jsonString + "\n________________\n");
+                                //Console.WriteLine(jsonString + "\n________________\n");
                                 SmartPhone phone = JsonHelper.ToClass<SmartPhone>(jsonString);
                                 PhoneList.Add(phone);
                                 break;
@@ -514,7 +516,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                 }         
             }
         }
-        
+
         //hiện section lọc hãng sản phẩm
         private void bunifuFlatButton3_Click(object sender, EventArgs e)
         {
@@ -558,6 +560,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                 }
             }
             PhoneFilter(list);//tiền hành lọc
+            panel2.Controls["phoneCount"].Text = list.Count.ToString() + " Điện thoại";//hiển thị tổng số điện thoại được show lên giao diện
         }
 
         //lọc điện thoại thuộc hãng SamSung
@@ -572,6 +575,7 @@ namespace Đồ_án_cơ_sở_tri_thức
                 }
             }
             PhoneFilter(list);//tiền hành lọc
+            panel2.Controls["phoneCount"].Text = list.Count.ToString() + " Điện thoại";//hiển thị tổng số điện thoại được show lên giao diện
         }
 
         //lọc điện thoại thuộc hãng OPPO
@@ -586,12 +590,147 @@ namespace Đồ_án_cơ_sở_tri_thức
                 }
             }
             PhoneFilter(list);//tiền hành lọc
+            panel2.Controls["phoneCount"].Text = list.Count.ToString() + " Điện thoại";//hiển thị tổng số điện thoại được show lên giao diện
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             storePanel1.BringToFront();
             storePanel1.Show();
+        }
+
+        private void Phone2_Load() {
+            //Khởi tạo danh sách điện thoại
+            // dùng lại màn hình phone2 này để lọc và show lên màn hình sau khi dùng chức năng tư vấn
+            List<SmartPhone> list = this.PhoneList;
+            int row = (list.Count / 3) + 1;
+            int y = 0;
+            int index = 0;
+            for (int i = 0; i < row; i++)
+            {
+                int x = 0;
+                for (int j = 0; j < 3; j++)
+                {
+                    if (index <= list.Count - 1)
+                    {
+                        PhoneShow phone = new PhoneShow();
+                        phone.Location = new Point(x, y);
+                        phone.Controls["NameButton1"].Text = list[index].TenDienThoai;
+                        phone.Controls["PriceButton1"].Text = list[index].Gia + " VNĐ";
+                        phone.Controls["pictureBox1"].BackgroundImage = Image.FromFile(PhonePicturePath + list[index].TenDienThoai + ".PNG");
+                        phone2.Controls.Add(phone);
+                        x += 210;
+                    }
+                    index++;
+                }
+                y += 270;
+            }
+        }
+
+        Dictionary<string, string> Information = new Dictionary<string, string>();// TenDienThoai,ThongTinDienThoai
+
+        public string[] Convert_String(string str)
+        {
+            str = str.Trim();
+            str = str.ToUpper();
+            string[] separators = { " " };
+            string[] words = str.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            return words;
+        }//Cắt chuỗi thành các term nhỏ
+
+
+
+        public void KhoiTaoThongTin()// Khởi tạo Dictionary Information gồm TenDienThoai,ThongTinDienThoai
+        {
+            Information = new Dictionary<string, string>();// TenDienThoai,ThongTinDienThoai
+            for (var i = 0; i < PhoneList.Count(); i++)
+            {
+                string TenDienThoai = PhoneList[i].TenDienThoai.ToString();
+                string ThongTin = null;
+                ThongTin = ThongTin + " " + PhoneList[i].HangSanXuat.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].LoaiDienThoai.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].CongNgheManHinh.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].DoPhanGiai.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].ManHinhRong.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].MatKinhCamUng.ToString();
+                ThongTin = ThongTin + " " + String.Join(" ", PhoneList[i].DoPhanGiaiCameraSau);
+                ThongTin = ThongTin + " " + PhoneList[i].Quayphim.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].DenFlash.ToString();
+                ThongTin = ThongTin + " " + String.Join(" ", PhoneList[i].ChupAnhNangCao);
+                ThongTin = ThongTin + " " + PhoneList[i].DoPhanGiaiCameraTruoc.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].Videocall.ToString();
+                ThongTin = ThongTin + " " + String.Join(" ", PhoneList[i].TinhNangCameraTruoc);
+                ThongTin = ThongTin + " " + PhoneList[i].HeDieuHanh.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].Chipset.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].TocDoCPU.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].ChipDoHoa.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].Ram.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].BoNhoTrong.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].BoNhoConLai.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].TheNhoNgoai.ToString();
+                ThongTin = ThongTin + " " + String.Join(" ", PhoneList[i].MangDiDong);
+                ThongTin = ThongTin + " " + PhoneList[i].Sim.ToString();
+                ThongTin = ThongTin + " " + String.Join(" ", PhoneList[i].Wifi);
+                ThongTin = ThongTin + " " + String.Join(" ", PhoneList[i].GPS);
+                ThongTin = ThongTin + " " + String.Join(" ", PhoneList[i].Bluetooth);
+                ThongTin = ThongTin + " " + PhoneList[i].CongKetNoi_Sac.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].JackTaiNghe.ToString();
+                ThongTin = ThongTin + " " + String.Join(" ", PhoneList[i].KetNoiKhac);
+                ThongTin = ThongTin + " " + String.Join(" ", PhoneList[i].ChatLieu);
+                ThongTin = ThongTin + " " + PhoneList[i].KichThuoc.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].TrongLuong.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].DungLuongPin.ToString();
+                ThongTin = ThongTin + " " + PhoneList[i].LoaiPin.ToString();
+                ThongTin = ThongTin + " " + String.Join(" ",PhoneList[i].CongNghePin);
+                ThongTin = ThongTin + " " + String.Join(" ",PhoneList[i].BaoMatNangCao);
+                ThongTin = ThongTin + " " + String.Join(" ",PhoneList[i].TinhNangDacBiet);
+                ThongTin = ThongTin + " " + String.Join(" ",PhoneList[i].GhiAm);
+                ThongTin = ThongTin + " " + PhoneList[i].Radio.ToString();
+                ThongTin = ThongTin + " " + String.Join(" ", PhoneList[i].XemPhim);
+                ThongTin = ThongTin + " " + String.Join(" ",PhoneList[i].NgheNhac);
+                ThongTin = ThongTin + " " + PhoneList[i].ThoiDiemRaMat.ToString();
+                ThongTin = ThongTin + " " + String.Join(" ",PhoneList[i].MauSac);
+                ThongTin = ThongTin + " " + PhoneList[i].Gia.ToString();
+                //Console.WriteLine(String.Join(" ",PhoneList[i].NgheNhac));
+                Information.Add(TenDienThoai, ThongTin);
+
+            }
+        }
+
+
+        public List<string> KetQuaTimKiem(string Find_Terms)// Xử lý tìm kiếm
+        {
+            KhoiTaoThongTin();
+            string[] Split_Terms = Convert_String(Find_Terms);// Các term nhỏ sau khi đc tách ra
+            List<List<string>> Find = new List<List<string>>();// Danh sách điện thoại kiếm được từ mỗi term
+            foreach (string term in Split_Terms)
+            {
+                List<string> Data = new List<string>();
+                foreach (KeyValuePair<string, string> kvp in Information)
+                {
+                    string check = kvp.Value.ToUpper().ToString();// Du lieu can kiem tra
+                    if (check.Contains(term) || kvp.Key.ToString().Contains(term))// Nếu term tồn tại trong TenDienThoai hoặc ThongTinDienThoai thì thêm Điện thoại đó vào list 
+                        Data.Add(kvp.Key.ToString());
+                }
+                Find.Add(Data);// Thêm List điện thoại kiếm đc từ mỗi term
+            }
+            List<string> Results = new List<string>();// List điện thoại sau khi tìm kiếm
+
+            var intersection = Find.Aggregate<IEnumerable<string>>((previousList, nextList) => previousList.Intersect(nextList)).ToList();// giao 2 list
+            Results = intersection;
+            return Results;
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (!String.IsNullOrEmpty(textBox1.Text.Trim()))
+                {
+                    List<String> results = this.KetQuaTimKiem(textBox1.Text);
+                    this.PhoneFilter(results);
+                }
+            }
         }
     }
 }

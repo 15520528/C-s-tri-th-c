@@ -1,0 +1,440 @@
+﻿<Rules>
+<Rules1 >
+          GT : ['NguoiSudung.ThoiGianSuDung(RatNhieu)'],
+          KL : ['NguoiSudung.TinhCach(HuongNoi)']
+</Rules1 >
+			
+<Rules2 >
+          GT : ['NguoiSuDungThoiGianSuDung(It)'],
+          KL : ['NguoiSudung.TinhCach(HuongNgoai)']
+</Rules2 >
+
+<Rules3 >
+          GT : ['NguoiSuDungThoiGianSuDung(TrungBinh)'],
+          KL : ['NguoiSudung.TinhCach(HuongNgoai)']
+</Rules3 >
+
+<Rules4 >
+          GT : ['NguoiSudung.TinhCach(HuongNoi)','NguoiSudung.NhuCau(ChoiGame)'],
+          KL : ['DanhGiaDienThoai.CauHinh(Manh)','DanhGiaDienThoai.TocDoKetNoiMang(Nhanh)','NguoiSudung.ThoiGianSuDung(RatNhieu)']
+</Rules4 >
+
+<Rules5 >
+          GT : ['NguoiSudung.TinhCach(HuongNoi)','NguoiSudung.NhuCau(XemPhim)'],
+          KL : ['DanhGiaDienThoai.TocDoKetNoiMang(Nhanh)','DanhGiaDienThoai.ChatLuongHienThi(TrungBinh)']
+</Rules5 >
+
+<Rules6 >
+          GT : ['NguoiSudung.GioiTinh(Nu)','NguoiSudung.TinhCach(HuongNgoai)','NguoiSudung.NhuCau(ChupAnh)'],
+          KL : ['DanhGiaDienThoai.ChatLuongCamera(Cao)','DanhGiaDienThoai.TocDoKetNoiMang(Nhanh)']
+</Rules6 >
+
+<Rules7 >
+          GT : ['NguoiSudung.TinhCach(HuongNoi)','NguoiSudung.NhuCau(NgheNhac)'],
+          KL : ['DanhGiaDienThoai.DinhDangNhac.(Nhieu)']
+</Rules7 >
+
+<Rules8 >
+          GT : ['NguoiSudung.GioiTinh(Nu)','NguoiSudung.LinhVucNgheNghiep(LaoDongTriTue)'],
+          KL : ['DienThoai.BaoMatNangCao(Co)']
+</Rules8 >
+
+<Rules9 >
+          GT : ['NguoiSudung.TinhCach(HuongNoi)','NguoiSudung.NhuCau(LuotWebMangXaHoi)'],
+          KL : ['DanhGiaDienThoai.TocDoKetNoiMang(TrungBinh)']
+</Rules9 >
+
+<Rules10 >
+          GT : ['DanhGiaDienThoai.CauHinh(Manh)'],
+          KL : ['DienThoai.CPU(Manh)','DienThoai.RAM(TrungBinh)']
+</Rules10 >
+
+<Rules11 >
+          GT : ['DanhGiaDienThoai.CauHinh(Manh)'],
+          KL : ['DienThoai.CPU(Manh)','DienThoai.RAM(Manh)']
+</Rules11 >
+
+<Rules12 >
+          GT : ['DanhGiaDienThoai.CauHinh(TrungBinh)'],
+          KL : ['DienThoai.CPU(TrungBinh)','DienThoai.RAM(TrungBinh)']
+</Rules12 >
+
+<Rules13 >
+          GT : ['DanhGiaDienThoai.CauHinh(TrungBinh)'],
+          KL : ['DienThoai.CPU(TrungBinh)','DienThoai.RAM(Manh)']
+</Rules13 >
+
+<Rules14 >
+          GT : ['DanhGiaDienThoai.CauHinh(Yeu)'],
+          KL : ['DienThoai.CPU(Yeu)','DienThoai.RAM(Yeu)']
+</Rules14 >
+
+<Rules15 >
+          GT : ['DanhGiaDienThoai.DungLuongBoNho(Nhieu)'],
+          KL : ['DienThoai.BoNhoTrong(TrungBinh)','DienThoai.BoNhoConLai(TrungBinh)']
+</Rules15 >
+
+<Rules16 >
+          GT : ['DanhGiaDienThoai.DungLuongBoNho(TrungBinh)'],
+          KL : ['DienThoai.BoNhoTrong(TrungBinh)','DienThoai.BoNhoConLai(It)']
+</Rules16 >
+
+<Rules17 >
+          GT : ['DanhGiaDienThoai.DungLuongBoNho(It)'],
+          KL : ['DienThoai.BoNhoTrong(It)','DienThoai.BoNhoConLai(It)']
+</Rules17 >
+
+<Rules18 >
+          GT : ['DanhGiaDienThoai.DungLuongBoNho(It)'],
+          KL : ['DienThoai.BoNhoTrong(It)','DienThoai.BoNhoConLai(TrungBinh)']
+</Rules18 >
+
+<Rules19 >
+          GT : ['DanhGiaDienThoai.TocDoKetNoiMang(Nhanh)'],
+          KL : ['DienThoai.MangDiDong(Nhanh)','DienThoai.Wi(Nhanh)']
+</Rules19 >
+
+<Rules20 >
+          GT : ['DanhGiaDienThoai.TocDoKetNoiMang(TrungBinh)'],
+          KL : ['DienThoai.MangDiDong(TrungBinh)','DienThoai.Wi(Nhanh)']
+</Rules20 >
+
+<Rules21 >
+          GT : ['DanhGiaDienThoai.ChatLuongHienThi(Cao)'],
+          KL : ['DienThoai.DoPhanGiai(Cao)','DienThoai.RAM(Cao)']
+</Rules21 >
+
+<Rules22 >
+          GT : ['DanhGiaDienThoai.ChatLuongHienThi(Cao)'],
+          KL : ['DienThoai.DoPhanGiai(Cao)','DienThoai.RAM(TrungBinh)']
+</Rules22 >
+
+<Rules23 >
+          GT : ['DanhGiaDienThoai.ChatLuongHienThi(TrungBinh)'],
+          KL : ['DienThoai.DoPhanGiai(TrungBinh)','DienThoai.RAM(Cao)']
+</Rules23 >
+
+<Rules24 >
+          GT : ['DanhGiaDienThoai.ChatLuongHienThi(TrungBinh)'],
+          KL : ['DienThoai.DoPhanGiai(Thap)','DienThoai.RAM(TrungBinh)']
+</Rules24 >
+
+<Rules25 >
+          GT : ['DanhGiaDienThoai.ChatLuongHienThi(Thap)'],
+          KL : ['DienThoai.DoPhanGiai(Thap)','DienThoai.RAM(TrungBinh)']
+</Rules25 >
+
+<Rules26 >
+          GT : ['DanhGiaDienThoai.ChatLuongHienThi(Thap)'],
+          KL : ['DienThoai.DoPhanGiai(Thap)','DienThoai.RAM(Thap)']
+</Rules26 >
+
+<Rules27 >
+          GT : ['DanhGiaDienThoai.ChatLuongCamera(Cao)'],
+          KL : ['DienThoai.DoPhanGiaiCameraTruoc(TrungBinh)','DienThoai.DoPhanGiaiCameraSau(Cao)']
+</Rules27 >
+
+<Rules28 >
+          GT : ['DanhGiaDienThoai.ChatLuongCamera(Cao)'],
+          KL : ['DienThoai.DoPhanGiaiCameraTruoc(TrungBinh)','DienThoai.DoPhanGiaiCameraSau(Cao)']
+</Rules28 >
+
+<Rules30 >
+          GT : ['DanhGiaDienThoai.ChatLuongCamera(TrungBinh)'],
+          KL : ['DienThoai.DoPhanGiaiCameraTruoc(TrungBinh))','DienThoai.DoPhanGiaiCameraSau(TrungBinh)']
+</Rules30 >
+
+<Rules32 >
+          GT : ['DanhGiaDienThoai.ChatLuongCamera(Thap)'],
+          KL : ['DienThoai.DoPhanGiaiCameraTruoc(Thap)','DienThoai.DoPhanGiaiCameraSau(Thap)']
+</Rules32 >
+
+<Rules33 >
+          GT : ['DanhGiaDienThoai.DingDangNhac(Nhieu)'],
+          KL : ['DienThoai.NgheNhac(Nhieu)']
+</Rules33 >
+
+<Rules34 >
+          GT : ['DanhGiaDienThoai.DinhDangNhac(It)'],
+          KL : ['DienThoai.NgheNhac(It)']
+</Rules34 >
+
+<Rules35 >
+          GT : ['NguoiSudung.ThoiGianSuDung(RatNhieu)'],
+          KL : ['DienThoai.DungLuongPin(Cao)','DienThoai.CongNghePin(Co)']
+</Rules35 >
+
+<Rules36 >
+          GT : ['NguoiSudung.ThoiGianSuDung(RatNhieu)'],
+          KL : ['DienThoai.DungLuongPin(RatCao)','DienThoai.CongNghePin(Co)']
+</Rules36 >
+
+<Rules37 >
+          GT : ['NguoiSudung.ThoiGianSuDung(Nhieu)'],
+          KL : ['DienThoai.DungLuongPin(Cao)','DienThoai.CongNghePin(Co)']
+</Rules37 >
+
+<Rules38 >
+          GT : ['NguoiSudung.ThoiGianSuDung(Nhieu)'],
+          KL : ['DienThoai.DungLuongPin(TrungBinh)','DienThoai.CongNghePin(Co)']
+</Rules38 >
+
+<Rules39 >
+          GT : ['NguoiSudung.ThoiGianSuDung(TrungBinh)'],
+          KL : ['DienThoai.DungLuongPin(Cao)','DienThoai.CongNghePin(Co)']
+</Rules39 >
+
+<Rules40 >
+          GT : ['NguoiSudung.ThoiGianSuDung(TrungBinh)'],
+          KL : ['DienThoai.DungLuongPin(Cao)','DienThoai.CongNghePin(Khong)']
+</Rules40 >
+
+<Rules41 >
+          GT : ['ThoiGianSuDung(TrungBinh)'],
+          KL : ['DienThoai.DungLuongPin(TrungBinh)','DienThoai.CongNghePin(Co)']
+</Rules41 >
+
+<Rules42 >
+          GT : ['ThoiGianSuDung(TrungBinh)'],
+          KL : ['DienThoai.DungLuongPin(TrungBinh)','DienThoai.CongNghePin(Khong)']
+</Rules42 >
+
+<Rules43 >
+          GT : ['NguoiSudung.ThoiGianSuDung(It)'],
+          KL : ['DienThoai.DungLuongPin(TrungBinh)']
+</Rules43 >
+
+<Rules44 >
+          GT : ['NguoiSudung.ThoiGianSuDung(It)'],
+          KL : ['DienThoai.DungLuongPin(Thap)']
+</Rules44 >
+
+<Rules45 >
+          GT : ['NguoiSuDung.Tuoi(6-12)'],
+          KL : ['NguoiSuDung.Tuoi(RatTre)']
+</Rules45 >
+
+<Rules46 >
+          GT : ['NguoiSuDung.Tuoi(13-19)'],
+          KL : ['NguoiSuDung.Tuoi(Tre)']
+</Rules46 >
+
+<Rules47 >
+          GT : ['NguoiSuDung.Tuoi(20-35)'],
+          KL : ['NguoiSuDung.Tuoi(TrungBinh)']
+</Rules47 >
+
+<Rules48 >
+          GT : ['NguoiSuDung.Tuoi(35-60)'],
+          KL : ['NguoiSuDung.Tuoi(Gia)']
+</Rules48 >
+
+<Rules49 >
+          GT : ['NguoiSuDung.Tuoi(>60)'],
+          KL : ['NguoiSuDung.Tuoi(RatGia)']
+</Rules49 >
+
+<Rules50 >
+          GT : ['NguoiSuDung.Tuoi(RatTre)'],
+          KL : ['DienThoai.LoaiDienThoai(Phổ thông)']
+</Rules50 >
+
+<Rules51 >
+          GT : ['NguoiSuDung.Tuoi(Tre)'],
+          KL : ['DienThoai.LoaiDienThoai(Phổ thông)','DienThoai.LoaiDienThoai(Thông minh)']
+</Rules51 >
+
+<Rules52 >
+          GT : ['NguoiSuDung.Tuoi(TrungBinh)'],
+          KL : ['DienThoai.LoaiDienThoai(Phổ thông)','DienThoai.LoaiDienThoai(Thông minh)']
+</Rules52 >
+
+<Rules53 >
+          GT : ['NguoiSuDung.Tuoi(Gia)'],
+          KL : ['DienThoai.LoaiDienThoai(Thông minh)']
+</Rules53 >
+
+<Rules54 >
+          GT : ['NguoiSuDung.Tuoi(RatGia)'],
+          KL : ['DienThoai.LoaiDienThoai(Thông minh)']
+</Rules54 >
+
+<Rules55>
+          GT : ['NguoiDung.ThuNhapCaNhan(0-5)'],
+          KL : ['NguoiSuDung.ThuNhapCaNhan(thap)']
+</Rules55>
+
+<Rules56 >
+          GT : ['NguoiDung.ThuNhapCaNhan(5-15)'],
+          KL : ['NguoiSuDung.ThuNhapCaNhan(BinhThuong)']
+</Rules56 >
+
+<Rules57 >
+          GT : ['NguoiDung.ThuNhapCaNhan(15-25)'],
+          KL : ['NguoiSuDung.ThuNhapCaNhan(HoiCao)']
+</Rules57 >
+
+<Rules58 >
+          GT : ['NguoiDung.ThuNhapCaNhan(25-50)'],
+          KL : ['NguoiSuDung.ThuNhapCaNhan(Cao)']
+</Rules58 >
+
+<Rules59 >
+          GT : ['NguoiDung.ThuNhapCaNhan(>50)'],
+          KL : ['NguoiSuDung.ThuNhapCaNhan(RatCao)']
+</Rules59 >
+
+<Rules60 >
+          GT : ['NguoiSuDung.ThuNhapCaNhan(Thap)'],
+          KL : ['DienThoai.Gia(RatRe)']
+</Rules60 >
+
+<Rules61 >
+          GT : ['NguoiSuDung.ThuNhapCaNhan(BinhThuong)'],
+          KL : ['DienThoai.Gia(Re)']
+</Rules61 >
+
+<Rules62 >
+          GT : ['NguoiSuDung.ThuNhapCaNhan(HoiCao)'],
+          KL : ['DienThoai.Gia(TrungBinh)']
+</Rules62 >
+
+<Rules63 >
+          GT : ['NguoiSuDung.ThuNhapCaNhan(Cao)'],
+          KL : ['DienThoai.Gia(Dat)']
+</Rules63 >
+
+<Rules64 >
+          GT : ['NguoiSuDung.ThuNhapCaNhan(RatCao)'],
+          KL : ['DienThoai.Gia(CucDat)']
+</Rules64 >
+
+<Rules65 >
+          GT : ['NguoiSuDung.ThoiGianSuDung(0-2)'],
+          KL : ['NguoiSuDung.ThoiGianSuDung(It)']
+</Rules65 >
+
+<Rules66 >
+          GT : ['NguoiSuDung.ThoiGianSuDung(2-4)'],
+          KL : ['NguoiSuDung.ThoiGianSuDung(TrungBinh)']
+</Rules66 >
+
+<Rules67 >
+          GT : ['NguoiSuDung.ThoiGianSuDung(4-6)'],
+          KL : ['NguoiSuDung.ThoiGianSuDung(Nhieu)']
+</Rules67 >
+
+<Rules68 >
+          GT : ['NguoiSuDung.ThoiGianSuDung(>6)'],
+          KL : ['NguoiSuDung.ThoiGianSuDung(RatNhieu)']
+</Rules68 >
+
+<Rules69 >
+          GT : ['NguoiSuDung.ThoiGianSuDung(It)'],
+          KL : ['DienThoai.DungLuongPin(Thap)']
+</Rules69 >
+
+<Rules70 >
+          GT : ['NguoiSuDung.ThoiGianSuDung(TrungBinh)'],
+          KL : ['DienThoai.DungLuongPin(TrungBinh)']
+</Rules70 >
+
+<Rules71 >
+          GT : ['NguoiSuDung.ThoiGianSuDung(Nhieu)'],
+          KL : ['DienThoai.DungLuongPin(Cao)','DienThoai.CongNghePin(Tiết kiệm pin)']
+</Rules71 >
+
+<Rules72 >
+          GT : ['NguoiSuDung.ThoiGianSuDung(RatNhieu)'],
+          KL : ['DienThoai.DungLuongPin(RatCao)','DienThoai.CongNghePin(Tiết kiệm pin)']
+</Rules72 >
+
+<Rules73 >
+          GT : ['NguoiDung.KetNoiInternet(MangDiDong)'],
+          KL : ['DienThoai.MangDiDong(3G)']
+</Rules73 >
+
+<Rules74 >
+          GT : ['NguoiDung.KetNoiInternet(Wifi)'],
+          KL : ['DienThoai.Wifi(Wi-Fi 802.11 b/g/n)','DienThoai.Wifi(Wi-Fi Direct)','DienThoai.Wifi(Wi-Fi hotspot)']
+</Rules74 >
+
+<Rules75 >
+          GT : ['NguoiDung.DoPhanGiaiThuongXem(144p-480p)','NguoiDung.XemViDeo(Web)'],
+          KL : ['DienThoai.MangDiDong(3G)','DienThoai.DoPhanGiai(144p-480p)']
+</Rules75 >
+
+<Rules76 >
+          GT : ['NguoiDung.DoPhanGiaiThuongXem(720p-1080p)','NguoiDung.XemViDeo(Web)'],
+          KL : ['DienThoai.MangDiDong(3G)','DienThoai.Wifi(Wi-Fi 802.11 b/g/n)','DienThoai.Wifi(Wi-Fi Direct)']
+</Rules76 >
+
+<Rules77 >
+          GT : ['NguoiDung.DoPhanGiaiThuongXem(2k-4k)','NguoiDung.XemViDeo(Web)'],
+          KL : ['DienThoai.MangDiDong(3G)','DienThoai.MangDiDong(4G)','DienThoai.Wifi(Wi-Fi 802.11 b/g/n)','DienThoai.Wifi(Wi-Fi Direct)','DienThoai.Wifi(Wi-Fi hotspot)','DienThoai.DoPhanGiai(720-1080)']
+</Rules77 >
+
+<Rules78 >
+          GT : ['NguoiDung.DoPhanGiaiThuongXem(144p-480p)','NguoiDung.XemViDeo(TrongDienThoai)'],
+          KL : ['DienThoai.BoNhoTrong(>=8GB)','DienThoai.BoNhoConLai(>1GB)']
+</Rules78 >
+
+<Rules79 >
+          GT : ['NguoiDung.DoPhanGiaiThuongXem(720p-1080p)','NguoiDung.XemViDeo(TrongDienThoai)'],
+          KL : ['DienThoai.DoPhanGiai(720p-1080p)','DienThoai.BoNhoConLai(> 4GB)']
+</Rules79 >
+
+<Rules80 >
+          GT : ['NguoiDung.DoPhanGiaiThuongXem(2k-4k)','NguoiDung.XemViDeo(TrongDienThoai)'],
+          KL : ['DienThoai.DoPhanGiai(2k-4k)','DienThoai.BoNhoConLai(> 52GB)']
+</Rules80 >
+
+<Rules81 >
+          GT : ['NguoiDung.ThichChatLuongNhac(Cao)'],
+          KL : ['DienThoai.NgheNhac(Lossless)','DienThoai.NgheNhac(FLAC)','DienThoai.BoNhoConLai(>4GB)']
+</Rules81 >
+
+<Rules82 >
+          GT : ['NguoiDung.ThichChatLuongNhac(TrungBinh)'],
+          KL : ['DienThoai.NgheNhac(WAV)','DienThoai.NgheNhac(WMA)','DienThoai.BoNhoConLai(>4GB)']
+</Rules82 >
+
+<Rules83 >
+          GT : ['NguoiDung.ThichChatLuongNhac(Thap)'],
+          KL : ['DienThoai.NgheNhac(mp3)','DienThoai.BoNhoConLai(>1GB)']
+</Rules83 >
+
+<Rules84 >
+          GT : ['NguoiDung.ThichChatLuongAnh(Cao)'],
+          KL : ['DienThoai.DoPhanGiaiCaremaTruoc(>=8 MP)','DienThoai.DoPhanGiaiCameraSau(>=12 MP)','DienThoai.BoNhoTrong(>8GB)']
+</Rules84 >
+
+<Rules85 >
+          GT : ['NguoiDung.ThichChatLuongAnh(TrungBinh)'],
+          KL : ['DienThoai.DoPhanGiaiCaremaTruoc(5 MP -8 MP)','DienThoai.DoPhanGiaiCameraSau(8 MP- 12 MP)','DienThoai.BoNhoTrong(>8GB)']
+</Rules85 >
+
+<Rules86 >
+          GT : ['NguoiDung.ThichChatLuongAnh(Thap)'],
+          KL : ['DienThoai.DoPhanGiaiCaremaTruoc(0-5 MP)','DienThoai.DoPhanGiaiCameraSau(1-8 MP)','DienThoai.BoNhoTrong(>4GB)']
+</Rules86 >
+
+<Rules87 >
+          GT : ['NguoiDung.ThichSoSim(1)'],
+          KL : ['DienThoai.SIM(1 SIM)']
+</Rules87 >
+
+<Rules88 >
+          GT : ['NguoiDung.ThichSoSim(2)'],
+          KL : ['DienThoai.SIM(2 SIM)']
+</Rules88 >
+
+<Rules89 >
+          GT : ['NguoiDung.ChoiGame(2D)'],
+          KL : ['DienThoai.CPU(TrungBinh)','DienThoai.RAM(TrungBinh)']
+</Rules89 >
+<Rules90 >
+          GT : ['NguoiDung.ChoiGame(3D)'],
+          KL : ['DienThoai.CPU(Manh)','DienThoai.RAM(Manh)']
+</Rules90 >
+</Rules>

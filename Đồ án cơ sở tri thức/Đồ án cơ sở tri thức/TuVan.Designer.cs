@@ -71,6 +71,7 @@
             this.checkBox13 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.bunifuDropdown3 = new Bunifu.Framework.UI.BunifuDropdown();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -151,7 +152,7 @@
             this.bunifuDropdown1.ForeColor = System.Drawing.Color.Black;
             this.bunifuDropdown1.Items = new string[0];
             this.bunifuDropdown1.Location = new System.Drawing.Point(220, 113);
-            this.bunifuDropdown1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuDropdown1.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuDropdown1.Name = "bunifuDropdown1";
             this.bunifuDropdown1.NomalColor = System.Drawing.Color.White;
             this.bunifuDropdown1.onHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -595,7 +596,7 @@
             this.button1.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(190, 1063);
+            this.button1.Location = new System.Drawing.Point(191, 1056);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(227, 47);
             this.button1.TabIndex = 37;
@@ -625,12 +626,20 @@
             this.bunifuDropdown3.TabIndex = 38;
             this.bunifuDropdown3.onItemSelected += new System.EventHandler(this.bunifuDropdown3_onItemSelected);
             // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(0, 1109);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(667, 40);
+            this.panel1.TabIndex = 39;
+            // 
             // TuVan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.bunifuDropdown3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox13);
@@ -726,5 +735,6 @@
         private System.Windows.Forms.CheckBox checkBox13;
         private System.Windows.Forms.Button button1;
         private Bunifu.Framework.UI.BunifuDropdown bunifuDropdown3;
+        private System.Windows.Forms.Panel panel1;
     }
 }

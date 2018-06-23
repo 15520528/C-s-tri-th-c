@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.Xml.Linq;
+using System.IO;
 
 namespace Đồ_án_cơ_sở_tri_thức
 {
@@ -100,8 +101,41 @@ namespace Đồ_án_cơ_sở_tri_thức
         {
             GiaThiet = new List<String>();
             RuleSet = new Dictionary<List<string>, List<string>>();
-
+            webBrowser1.BringToFront();
+            //webBrowser1.Navigate("https://www.google.com/maps?527 Phan Văn Trị, P. 05, Q. Gò Vấp, TP. Hồ Chí Minh");
+            //webBrowser1.DocumentText =
+            //            "<html><body>Please enter your name:<br/>" +
+            //    "<input type='text' name='userName'/><br/>" +
+            //    @"<img src='C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Tìm kiếm\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\hinh\Asus Zenfone 2 Go ZB500KG.PNG' alt='Cinque Terre' width='300' height='200'>" +
+            //    "<a href='ABC'>continue</a>" +
+            //    "</body></html>";
+            String text = File.ReadAllText(@"C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Knowledge base\Articles\SUPER AMOLED.html");
+            this.webBrowser1.DocumentText = text;
+            webBrowser1.Navigating +=
+            new WebBrowserNavigatingEventHandler(webBrowser1_Navigating);
+            
         }
+        private void webBrowser1_Navigating(object sender,
+        WebBrowserNavigatingEventArgs e)
+        {
+            e.Cancel = true;
+            if (this.webBrowser1.Document == null)
+            {
+                //this.webBrowser1.DocumentText = htmlSource;
+            }
+            else
+            {
+                this.webBrowser1.Document.OpenNew(true);
+                String text = File.ReadAllText(@"C:\Users\nhoxe\OneDrive\Documents\GitHub\C-s-tri-th-c\Đồ án cơ sở tri thức\Đồ án cơ sở tri thức\bin\Debug\Knowledge base\Articles\SUPER AMOLED.html");
+                this.webBrowser1.Document.Write(text);
+                //    this.webBrowser1.Document.Write("<html><body>Please enter your name1321313asdasdasdasd:<br/>" +
+                //"<input type='text' name='userName'/><br/>" +
+                //"<a href='1234444'>continue</a>" +
+                //"</body></html>");
+
+            }
+        }
+
     }
     public class Rules
     { 
